@@ -11,10 +11,10 @@ import gc
 import time
 
 
-path = '/home/wesm/Downloads/Performance_2016Q4.txt'
+CSV_PATH = '2016Q4.txt'
 
 def write_files():
-    df = pd.read_csv(path, sep='|', header=None, low_memory=False)
+    df = pd.read_csv(CSV_PATH, sep='|', header=None, low_memory=False)
     df.columns = ['f{}'.format(i) for i in range(len(df.columns))]
 
     t = (pa.Table.from_pandas(df, preserve_index=False)
@@ -44,7 +44,10 @@ def bench():
     for name, f in cases:
         print((name, get_timing(f, NITER)))
 
-bench()
+
+write_files()
+
+# bench()
 
 # ('pyarrow.parquet', 1.5470361709594727)
 # ('pyarrow.parquet-pandas', 2.925654172897339)
