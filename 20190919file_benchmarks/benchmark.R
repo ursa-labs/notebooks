@@ -26,6 +26,7 @@ do_benchmark <- function() {
   mbm
 }
 
-create_fst_file()
+# create_fst_file()
 
-# mbm <- do_benchmark()
+mbm <- do_benchmark()
+write.csv(mbm, "r_results.csv")
