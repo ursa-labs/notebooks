@@ -98,7 +98,11 @@ def run_benchmarks():
     all_results.to_csv('py_results.csv')
 
 
-run_benchmarks()
+# run_benchmarks()
+
+
+for i in range(5):
+    pq.read_table('yellow_tripdata_2010-01.parquet').to_pandas()
 
 
 # write_files(files)

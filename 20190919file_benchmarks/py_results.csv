@@ -1,0 +1,9 @@
+,expr,output_type,mean,dataset
+0,pyarrow.parquet,arrow Table,1.1731575965881347,fanniemae
+1,pyarrow.parquet-pandas,pandas,2.224829626083374,fanniemae
+2,pyarrow.feather,pandas,1.2888381004333496,fanniemae
+3,fastparquet,pandas,2.2071932792663573,fanniemae
+4,pyarrow.parquet,arrow Table,0.7922191619873047,nyctaxi
+5,pyarrow.parquet-pandas,pandas,6.817840433120727,nyctaxi
+6,pyarrow.feather,pandas,6.175291585922241,nyctaxi
+7,fastparquet,pandas,6.69677586555481,nyctaxi
