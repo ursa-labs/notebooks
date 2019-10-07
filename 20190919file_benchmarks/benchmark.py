@@ -11,8 +11,7 @@ import fastparquet as fp
 import gc
 import time
 
-# Using 16 physical cores for these benchmarks
-pa.set_cpu_count(16)
+print(f"using {pa.cpu_count()} cpu cores")
 
 
 def generate_files_for_csv(csv_path, base, sep=',', header=None):
@@ -37,8 +36,8 @@ def get_timing(f, niter):
 NITER = 5
 
 def bench(info):
-    parquet_path = '{}.parquet'.format(info['base'])
-    feather_path = '{}.feather'.format(info['base'])
+    parquet_path = 'data/{}.parquet'.format(info['base'])
+    feather_path = 'data/{}.feather'.format(info['base'])
 
     cases = [
         ('pyarrow.parquet', 'arrow Table',
@@ -47,7 +46,7 @@ def bench(info):
          lambda: (pq.read_table(parquet_path).to_pandas())),
         ('pyarrow.feather', 'pandas',
          lambda: feather.read_feather(feather_path)),
-        ('fastparquet', 'pandas', lambda: pd.read_parquet(parquet_path))
+        # ('fastparquet', 'pandas', lambda: pd.read_parquet(parquet_path))
     ]
 
     results = []
@@ -98,11 +97,11 @@ def run_benchmarks():
     all_results.to_csv('py_results.csv')
 
 
-# run_benchmarks()
+run_benchmarks()
 
 
-for i in range(5):
-    pq.read_table('yellow_tripdata_2010-01.parquet').to_pandas()
+# for i in range(5):
+#     pq.read_table('yellow_tripdata_2010-01.parquet').to_pandas()
 
 
 # write_files(files)

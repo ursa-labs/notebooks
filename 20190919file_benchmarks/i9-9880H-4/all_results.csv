@@ -1,0 +1,19 @@
+expr,time,dataset,output_type
+R rds,24.7440853608,fanniemae,R data.frame
+R csv_fread,5.4296275238,fanniemae,R data.frame
+R feather_old,5.2222283298,fanniemae,R data.frame
+R fst,3.3813570264,fanniemae,R data.frame
+R feather_arrow,2.9662292186,fanniemae,R data.frame
+R parquet,4.6544630666,fanniemae,R data.frame
+R rds,22.135398477200003,nyctaxi,R data.frame
+R csv_fread,17.687647606,nyctaxi,R data.frame
+R feather_old,11.989569364200001,nyctaxi,R data.frame
+R fst,12.0112101424,nyctaxi,R data.frame
+R feather_arrow,11.617949409200001,nyctaxi,R data.frame
+R parquet,13.0886089094,nyctaxi,R data.frame
+pyarrow.parquet,2.1267578125,fanniemae,arrow Table
+pyarrow.parquet-pandas,3.518295383453369,fanniemae,pandas
+pyarrow.feather,1.6831360816955567,fanniemae,pandas
+pyarrow.parquet,1.1050359725952148,nyctaxi,arrow Table
+pyarrow.parquet-pandas,7.481458854675293,nyctaxi,pandas
+pyarrow.feather,6.5046766757965075,nyctaxi,pandas

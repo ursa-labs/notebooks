@@ -12,7 +12,7 @@ py_results['time'] = py_results.pop('mean')
 
 # Excluding the fastparquet results since they are similar to pyarrow on these
 # datasets and distract from the core discussion
-py_results = py_results[py_results['expr'] != 'fastparquet']
+# py_results = py_results[py_results['expr'] != 'fastparquet']
 
 results = pd.concat([r_results, py_results], ignore_index=True, sort=False)
 results.to_csv('all_results.csv', index=False)
