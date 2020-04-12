@@ -1,11 +1,11 @@
 library(ggplot2)
 
-install.packages("stringi")
+# install.packages("stringi")
 
 setwd("~/code/notebooks/20190919file_benchmarks/")
 
-reads <- read.csv("ipc_read_chunksize.csv")
-writes <- read.csv("ipc_write_chunksize.csv")
+reads <- read.csv("ipc_read_parallel.csv")
+writes <- read.csv("ipc_write_parallel.csv")
 
 writes
 
