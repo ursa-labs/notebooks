@@ -1,10 +1,9 @@
 import os
 import pandas as pd
 
-pieces = []
-
 
 def munge_results(kind='read'):
+    pieces = []
     for num_threads in (1, 4, 8):
         expr_rename = {
             'R parquet_unc': 'parquet (UNC)',

@@ -54,6 +54,12 @@ do_write_benchmark <- function(index) {
   mbm <- microbenchmark(
      fst_unc=fst::write_fst(df, str_c(base, "_0.fst"), compress=0),
      fst_50=fst::write_fst(df, str_c(base, "_50.fst"), compress=50),
+     feather_unc=arrow::write_feather(df, str_c(base, "_unc_r.feather"),
+          compression="uncompressed"),
+     feather_lz4=arrow::write_parquet(df, str_c(base, "_lz4_r.feather"),
+          compression="lz4"),
+     feather_zstd=arrow::write_parquet(df, str_c(base, "_zstd_r.feather"),
+          compression="zstd"),
      parquet_unc=arrow::write_parquet(df, str_c(base, "_unc_r.parquet"),
           compression="uncompressed"),
      parquet_snappy=arrow::write_parquet(df, str_c(base, "_snappy_r.parquet"),
@@ -75,9 +81,9 @@ generate_files <- function() {
 
 print(str_c("Using ", arrow::cpu_count(), " threads"))
 
-results <- dplyr::bind_rows(do_benchmark(1), do_benchmark(2))
-print(results)
-write.csv(results, str_c("r_results_", arrow::cpu_count(), ".csv"))
+# results <- dplyr::bind_rows(do_benchmark(1), do_benchmark(2))
+# print(results)
+# write.csv(results, str_c("r_results_", arrow::cpu_count(), ".csv"))
 
 write_results <- dplyr::bind_rows(do_write_benchmark(1), do_write_benchmark(2))
 print(write_results)
