@@ -68,7 +68,7 @@ class Benchmarker:
 
         return self._bench_cases(cases, niter)
 
-    def bench_write(self, niter=1):
+    def bench_write(self, niter=2):
         print("Reading text file: {}".format(self.csv_path))
         df = pd.read_csv(self.csv_path, sep=self.sep, header=self.header,
                          low_memory=False)

@@ -58,7 +58,7 @@ do_write_benchmark <- function(index) {
           compression="uncompressed"),
      parquet_snappy=arrow::write_parquet(df, str_c(base, "_snappy_r.parquet"),
           compression="snappy"),
-     times=1
+     times=2
   )
   mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::summarize(time=mean(time))
   mbm$dataset <- names[index]
