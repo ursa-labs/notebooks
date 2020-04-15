@@ -1,0 +1,21 @@
+,expr,output_type,mean,dataset
+0,parquet (UNC),arrow Table,5.9084875106811525,fanniemae
+1,parquet (UNC),pandas,9.098347187042236,fanniemae
+2,parquet (SNAPPY),arrow Table,5.820552968978882,fanniemae
+3,parquet (SNAPPY),pandas,9.117757225036621,fanniemae
+4,feather (UNC),pandas,4.374686145782471,fanniemae
+5,feather (LZ4),pandas,4.336133575439453,fanniemae
+6,feather (ZSTD),pandas,5.75779619216919,fanniemae
+7,feather (UNC),arrow Table,1.0400118350982666,fanniemae
+8,feather (LZ4),arrow Table,1.037822389602661,fanniemae
+9,feather (ZSTD),arrow Table,2.4956663608551026,fanniemae
+10,parquet (UNC),arrow Table,2.7723140716552734,nyctaxi
+11,parquet (UNC),pandas,9.756191539764405,nyctaxi
+12,parquet (SNAPPY),arrow Table,2.7760762691497805,nyctaxi
+13,parquet (SNAPPY),pandas,9.643247699737548,nyctaxi
+14,feather (UNC),pandas,7.499564361572266,nyctaxi
+15,feather (LZ4),pandas,7.76696515083313,nyctaxi
+16,feather (ZSTD),pandas,9.733231210708619,nyctaxi
+17,feather (UNC),arrow Table,0.5390090942382812,nyctaxi
+18,feather (LZ4),arrow Table,0.9450398445129394,nyctaxi
+19,feather (ZSTD),arrow Table,2.7831705093383787,nyctaxi
