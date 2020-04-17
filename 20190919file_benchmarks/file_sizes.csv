@@ -1,15 +1,21 @@
 dataset,file_type,size
-fanniemae,feather (UNC),4812.015695571899
-fanniemae,feather (LZ4),608.8575687408447
-fanniemae,feather (ZSTD),499.76035499572754
+fanniemae,feather V1,4812.5457763671875
+fanniemae,feather V2 (UNC),4812.015695571899
+fanniemae,feather V2 (LZ4),608.8575687408447
+fanniemae,feather V2 (ZSTD),499.76035499572754
 fanniemae,parquet (UNC),372.0420684814453
 fanniemae,parquet (SNAPPY),136.54194450378418
 fanniemae,fst (UNC),5033.68958568573
 fanniemae,fst (C=50),766.0145416259766
-nyctaxi,feather (UNC),2389.72052192688
-nyctaxi,feather (LZ4),1120.5288562774658
-nyctaxi,feather (ZSTD),783.8803653717041
+fanniemae,RDS (C),114.32603359222412
+fanniemae,RDS (UNC),5682.447074890137
+nyctaxi,feather V1,2389.4743881225586
+nyctaxi,feather V2 (UNC),2389.72052192688
+nyctaxi,feather V2 (LZ4),1120.5288562774658
+nyctaxi,feather V2 (ZSTD),783.8803653717041
 nyctaxi,parquet (UNC),1188.3576135635376
 nyctaxi,parquet (SNAPPY),719.5741958618164
 nyctaxi,fst (UNC),2412.6597032546997
 nyctaxi,fst (C=50),1199.6639070510864
+nyctaxi,RDS (C),541.6701745986938
+nyctaxi,RDS (UNC),2671.2057056427

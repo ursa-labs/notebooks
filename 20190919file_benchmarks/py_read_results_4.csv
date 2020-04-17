@@ -1,21 +1,21 @@
 ,expr,output_type,mean,dataset
-0,parquet (UNC),arrow Table,1.8207016944885255,fanniemae
-1,parquet (UNC),pandas,4.03610520362854,fanniemae
-2,parquet (SNAPPY),arrow Table,1.854694414138794,fanniemae
-3,parquet (SNAPPY),pandas,4.084072589874268,fanniemae
-4,feather (UNC),pandas,3.450529766082764,fanniemae
-5,feather (LZ4),pandas,2.76460223197937,fanniemae
-6,feather (ZSTD),pandas,3.052846908569336,fanniemae
-7,feather (UNC),arrow Table,1.085907793045044,fanniemae
-8,feather (LZ4),arrow Table,0.4812290668487549,fanniemae
-9,feather (ZSTD),arrow Table,0.7765973567962646,fanniemae
-10,parquet (UNC),arrow Table,0.675822639465332,nyctaxi
-11,parquet (UNC),pandas,7.32334418296814,nyctaxi
-12,parquet (SNAPPY),arrow Table,0.8113700389862061,nyctaxi
-13,parquet (SNAPPY),pandas,7.48614273071289,nyctaxi
-14,feather (UNC),pandas,7.28670563697815,nyctaxi
-15,feather (LZ4),pandas,7.021370363235474,nyctaxi
-16,feather (ZSTD),pandas,7.446707010269165,nyctaxi
-17,feather (UNC),arrow Table,0.5968643665313721,nyctaxi
-18,feather (LZ4),arrow Table,0.4363104820251465,nyctaxi
-19,feather (ZSTD),arrow Table,0.8861034393310547,nyctaxi
+0,parquet (UNC),arrow Table,1.841284704208374,fanniemae
+1,parquet (UNC),pandas,4.088014888763428,fanniemae
+2,parquet (SNAPPY),arrow Table,1.8786502361297608,fanniemae
+3,parquet (SNAPPY),pandas,4.165652704238892,fanniemae
+4,feather V2 (UNC),pandas,3.5610058307647705,fanniemae
+5,feather V2 (LZ4),pandas,2.778682994842529,fanniemae
+6,feather V2 (ZSTD),pandas,3.0616337299346923,fanniemae
+7,feather V2 (UNC),arrow Table,1.1269856452941895,fanniemae
+8,feather V2 (LZ4),arrow Table,0.48981823921203616,fanniemae
+9,feather V2 (ZSTD),arrow Table,0.8093690395355224,fanniemae
+10,parquet (UNC),arrow Table,0.6995339870452881,nyctaxi
+11,parquet (UNC),pandas,7.4361457347869875,nyctaxi
+12,parquet (SNAPPY),arrow Table,0.78084397315979,nyctaxi
+13,parquet (SNAPPY),pandas,7.540273284912109,nyctaxi
+14,feather V2 (UNC),pandas,7.369460582733154,nyctaxi
+15,feather V2 (LZ4),pandas,7.119231033325195,nyctaxi
+16,feather V2 (ZSTD),pandas,7.537483549118042,nyctaxi
+17,feather V2 (UNC),arrow Table,0.6116453170776367,nyctaxi
+18,feather V2 (LZ4),arrow Table,0.4065845012664795,nyctaxi
+19,feather V2 (ZSTD),arrow Table,0.8925417900085449,nyctaxi

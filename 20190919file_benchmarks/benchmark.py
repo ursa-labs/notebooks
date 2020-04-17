@@ -46,22 +46,22 @@ class Benchmarker:
             ('parquet (SNAPPY)', 'pandas',
              lambda: (pq.read_table(self.parquet_snappy_path, memory_map=False)
                       .to_pandas())),
-            ('feather (UNC)', 'pandas',
+            ('feather V2 (UNC)', 'pandas',
              lambda: feather.read_feather(self.feather_unc_path,
                                           memory_map=False)),
-            ('feather (LZ4)', 'pandas',
+            ('feather V2 (LZ4)', 'pandas',
              lambda: feather.read_feather(self.feather_lz4_path,
                                           memory_map=False)),
-            ('feather (ZSTD)', 'pandas',
+            ('feather V2 (ZSTD)', 'pandas',
              lambda: feather.read_feather(self.feather_zstd_path,
                                           memory_map=False)),
-            ('feather (UNC)', 'arrow Table',
+            ('feather V2 (UNC)', 'arrow Table',
              lambda: feather.read_table(self.feather_unc_path,
                                         memory_map=False)),
-            ('feather (LZ4)', 'arrow Table',
+            ('feather V2 (LZ4)', 'arrow Table',
              lambda: feather.read_table(self.feather_lz4_path,
                                         memory_map=False)),
-            ('feather (ZSTD)', 'arrow Table',
+            ('feather V2 (ZSTD)', 'arrow Table',
              lambda: feather.read_table(self.feather_zstd_path,
                                         memory_map=False)),
         ]
@@ -92,22 +92,22 @@ class Benchmarker:
              lambda: pq.write_table(t, self.parquet_snappy_path)),
             ('parquet (SNAPPY)', 'pandas',
              lambda: pq.write_table(_get_table(df), self.parquet_snappy_path)),
-            ('feather (UNC)', 'pandas',
+            ('feather V2 (UNC)', 'pandas',
              lambda: feather.write_feather(df, self.feather_unc_path,
                                            compression='uncompressed')),
-            ('feather (UNC)', 'arrow Table',
+            ('feather V2 (UNC)', 'arrow Table',
              lambda: feather.write_feather(t, self.feather_unc_path,
                                            compression='uncompressed')),
-            ('feather (LZ4)', 'pandas',
+            ('feather V2 (LZ4)', 'pandas',
              lambda: feather.write_feather(df, self.feather_lz4_path,
                                            compression='lz4')),
-            ('feather (LZ4)', 'arrow Table',
+            ('feather V2 (LZ4)', 'arrow Table',
              lambda: feather.write_feather(t, self.feather_lz4_path,
                                            compression='lz4')),
-            ('feather (ZSTD)', 'pandas',
+            ('feather V2 (ZSTD)', 'pandas',
              lambda: feather.write_feather(df, self.feather_zstd_path,
                                            compression='zstd')),
-            ('feather (ZSTD)', 'arrow Table',
+            ('feather V2 (ZSTD)', 'arrow Table',
              lambda: feather.write_feather(t, self.feather_zstd_path,
                                            compression='zstd'))
         ]
@@ -178,7 +178,7 @@ def run_benchmarks(num_threads, what='read'):
 
 # write_files(files)
 
-num_threads_cases = [1, 4, 8]
+num_threads_cases = [1, 4]
 
 for nthreads in num_threads_cases:
     write_results = run_benchmarks(nthreads, what='write')

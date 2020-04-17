@@ -4,26 +4,29 @@ import pandas as pd
 
 def munge_results(kind='read'):
     pieces = []
-    for num_threads in (1, 4, 8):
+    for num_threads in (1, 4):
         expr_rename = {
-            'R parquet_unc': 'parquet (UNC)',
-            'R parquet_snappy': 'parquet (SNAPPY)',
-            'R feather_unc': 'feather (UNC)',
-            'R feather_lz4': 'feather (LZ4)',
-            'R feather_zstd': 'feather (ZSTD)',
-            'R fst_unc': 'fst (UNC)',
-            'R fst_50': 'fst (c=50)',
+            'parquet_unc': 'parquet (UNC)',
+            'parquet_snappy': 'parquet (SNAPPY)',
+            'feather_v1': 'feather V1',
+            'feather_unc': 'feather V2 (UNC)',
+            'feather_lz4': 'feather V2 (LZ4)',
+            'feather_zstd': 'feather V2 (ZSTD)',
+            'fst_unc': 'fst (UNC)',
+            'fst_50': 'fst (c=50)',
+            'rds_unc': 'RDS (UNC)',
+            'rds_compressed': 'RDS (C)',
             'pyarrow.parquet': 'parquet (SNAPPY)',
-            'pyarrow.feather (UNC)': 'feather (UNC)',
-            'pyarrow.feather (LZ4)': 'feather (LZ4)',
-            'pyarrow.feather (ZSTD)': 'feather (ZSTD)',
+            'pyarrow.feather (UNC)': 'feather V2 (UNC)',
+            'pyarrow.feather (LZ4)': 'feather V2 (LZ4)',
+            'pyarrow.feather (ZSTD)': 'feather V2 (ZSTD)',
         }
 
         r_results = pd.read_csv('r_{}_results_{}.csv'.format(kind,
                                                              num_threads))
         r_results = r_results[['expr', 'time', 'dataset']]
         r_results['output_type'] = "R data.frame"
-        r_results['expr'] = 'R ' + r_results['expr']
+        r_results['expr'] = r_results['expr']
         r_results['time'] /= 1e9
         r_results['nthreads'] = num_threads
         r_results['language'] = 'R'
@@ -61,13 +64,16 @@ files = [('fanniemae', '2016Q4'),
          ('nyctaxi', 'yellow_tripdata_2010-01')]
 
 cases = [
-    ('feather (UNC)', '_uncompressed.feather'),
-    ('feather (LZ4)', '_lz4.feather'),
-    ('feather (ZSTD)', '_zstd.feather'),
+    ('feather V1', '_v1.feather'),
+    ('feather V2 (UNC)', '_uncompressed.feather'),
+    ('feather V2 (LZ4)', '_lz4.feather'),
+    ('feather V2 (ZSTD)', '_zstd.feather'),
     ('parquet (UNC)', '_uncompressed.parquet'),
     ('parquet (SNAPPY)', '_snappy.parquet'),
     ('fst (UNC)', '_0.fst'),
-    ('fst (C=50)', '_50.fst')
+    ('fst (C=50)', '_50.fst'),
+    ('RDS (C)', '_compressed.rds'),
+    ('RDS (UNC)', '_uncompressed.rds')
 ]
 
 file_sizes = []
