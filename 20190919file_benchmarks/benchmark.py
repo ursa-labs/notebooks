@@ -11,12 +11,16 @@ import gc
 import time
 
 
-def get_timing(f, niter):
-    start = time.clock_gettime(time.CLOCK_REALTIME)
+def get_timings(f, niter):
+    results = []
     for i in range(niter):
+        start = time.clock_gettime(time.CLOCK_REALTIME)
         f()
-    result = (time.clock_gettime(time.CLOCK_REALTIME) - start) / niter
-    return result
+        result = (time.clock_gettime(time.CLOCK_REALTIME) - start)
+        print(result)
+        results.append(result)
+
+    return results
 
 
 class Benchmarker:
@@ -68,7 +72,7 @@ class Benchmarker:
 
         return self._bench_cases(cases, niter)
 
-    def bench_write(self, niter=2):
+    def bench_write(self, niter=3):
         print("Reading text file: {}".format(self.csv_path))
         df = pd.read_csv(self.csv_path, sep=self.sep, header=self.header,
                          low_memory=False)
@@ -115,15 +119,15 @@ class Benchmarker:
         return self._bench_cases(cases, niter)
 
     def _bench_cases(self, cases, niter):
-        results = []
+        all_results = []
         for name, output_type, f in cases:
-            print(name)
-            result = (name, output_type, get_timing(f, niter))
-            print(result)
-            results.append(result)
-        return pd.DataFrame.from_records(results,
+            print((name, output_type))
+            results = get_timings(f, niter)
+            all_results.extend((name, output_type, i + 1, t)
+                               for i, t in enumerate(results))
+        return pd.DataFrame.from_records(all_results,
                                          columns=['expr', 'output_type',
-                                                  'mean'])
+                                                  'iteration', 'time'])
 
 
 def unpack(d, *fields):
@@ -168,15 +172,8 @@ def run_benchmarks(num_threads, what='read'):
         file_results['dataset'] = name
         all_results.append(file_results)
 
-    print(all_results)
     return pd.concat(all_results, ignore_index=True)
 
-
-
-# for i in range(5):
-#     pq.read_table('yellow_tripdata_2010-01.parquet').to_pandas()
-
-# write_files(files)
 
 num_threads_cases = [1, 4]
 
@@ -186,10 +183,3 @@ for nthreads in num_threads_cases:
 
     read_results = run_benchmarks(nthreads, what='read')
     read_results.to_csv('py_read_results_{}.csv'.format(nthreads))
-
-# for nthreads in num_threads_cases:
-#     run_benchmarks(nthreads)
-
-# ('pyarrow.parquet', 1.5470361709594727)
-# ('pyarrow.parquet-pandas', 2.925654172897339)
-# ('pyarrow.feather', 1.6384665012359618)

@@ -47,9 +47,10 @@ do_benchmark <- function(index) {
      parquet_snappy=arrow::read_parquet(parquet_snappy_path),
      rds_unc=readRDS(rds_unc_path),
      rds_compressed=readRDS(rds_compressed_path),
-     times=5
+     times=5,
+     control=list(order="block", warmup=1)
   )
-  mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::summarize(time=mean(time))
+  mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::mutate(iteration=1:n())
   mbm$dataset <- names[index]
   mbm
 }
@@ -76,9 +77,10 @@ do_write_benchmark <- function(index) {
           compression="snappy"),
      rds_compressed=saveRDS(df, str_c(base, "_compressed.rds"), compress=TRUE),
      rds_unc=saveRDS(df, str_c(base, "_uncompressed.rds"), compress=FALSE),
-     times=1
+     times=3,
+     control=list(order="block", warmup=1)
   )
-  mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::summarize(time=mean(time))
+  mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::mutate(iteration=1:n())
   mbm$dataset <- names[index]
   mbm
 }
@@ -89,7 +91,7 @@ generate_files <- function() {
   }
 }
 
-# generate_files()
+generate_files()
 
 print(str_c("Using ", arrow::cpu_count(), " threads"))
 
