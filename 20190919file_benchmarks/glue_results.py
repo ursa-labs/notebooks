@@ -24,7 +24,7 @@ def munge_results(kind='read'):
 
         r_results = pd.read_csv('r_{}_results_{}.csv'.format(kind,
                                                              num_threads))
-        r_results = r_results[['expr', 'time', 'dataset']]
+        r_results = r_results[['expr', 'time', 'iteration', 'dataset']]
         r_results['output_type'] = "R data.frame"
         r_results['expr'] = r_results['expr']
         r_results['time'] /= 1e9
@@ -35,8 +35,8 @@ def munge_results(kind='read'):
 
         py_results = pd.read_csv('py_{}_results_{}.csv'.format(kind,
                                                                num_threads))
-        py_results = py_results[['expr', 'output_type', 'mean', 'dataset']]
-        py_results['time'] = py_results.pop('mean')
+        py_results = py_results[['expr', 'output_type', 'iteration',
+                                 'time', 'dataset']]
         py_results['nthreads'] = num_threads
         py_results['language'] = 'Python'
 

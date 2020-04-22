@@ -1,0 +1,251 @@
+,expr,output_type,iteration,time,dataset
+0,parquet (UNC),arrow Table,1,1.8728299140930176,fanniemae
+1,parquet (UNC),arrow Table,2,1.7854516506195068,fanniemae
+2,parquet (UNC),arrow Table,3,1.7873401641845703,fanniemae
+3,parquet (UNC),arrow Table,4,1.866471290588379,fanniemae
+4,parquet (UNC),arrow Table,5,1.8301191329956055,fanniemae
+5,parquet (UNC),arrow Table,6,1.832854986190796,fanniemae
+6,parquet (UNC),arrow Table,7,1.803847074508667,fanniemae
+7,parquet (UNC),arrow Table,8,1.80322265625,fanniemae
+8,parquet (UNC),arrow Table,9,1.8336338996887207,fanniemae
+9,parquet (UNC),arrow Table,10,1.8185057640075684,fanniemae
+10,parquet (UNC),arrow Table,11,1.7885231971740723,fanniemae
+11,parquet (UNC),arrow Table,12,1.857604742050171,fanniemae
+12,parquet (UNC),arrow Table,13,1.8605430126190186,fanniemae
+13,parquet (UNC),arrow Table,14,1.8595550060272217,fanniemae
+14,parquet (UNC),arrow Table,15,1.8569533824920654,fanniemae
+15,parquet (UNC),arrow Table,16,1.8683338165283203,fanniemae
+16,parquet (UNC),arrow Table,17,1.849257230758667,fanniemae
+17,parquet (UNC),arrow Table,18,1.8376331329345703,fanniemae
+18,parquet (UNC),arrow Table,19,1.943981647491455,fanniemae
+19,parquet (UNC),arrow Table,20,1.8478710651397705,fanniemae
+20,parquet (UNC),arrow Table,21,1.8496885299682617,fanniemae
+21,parquet (UNC),arrow Table,22,1.822061538696289,fanniemae
+22,parquet (UNC),arrow Table,23,1.8987226486206055,fanniemae
+23,parquet (UNC),arrow Table,24,1.8647592067718506,fanniemae
+24,parquet (UNC),arrow Table,25,1.9096570014953613,fanniemae
+25,parquet (UNC),pandas,1,4.143689870834351,fanniemae
+26,parquet (UNC),pandas,2,4.113340139389038,fanniemae
+27,parquet (UNC),pandas,3,4.152264595031738,fanniemae
+28,parquet (UNC),pandas,4,4.142167091369629,fanniemae
+29,parquet (UNC),pandas,5,4.127077341079712,fanniemae
+30,parquet (UNC),pandas,6,4.057672739028931,fanniemae
+31,parquet (UNC),pandas,7,4.041805028915405,fanniemae
+32,parquet (UNC),pandas,8,4.117100477218628,fanniemae
+33,parquet (UNC),pandas,9,4.095183372497559,fanniemae
+34,parquet (UNC),pandas,10,4.062731027603149,fanniemae
+35,parquet (UNC),pandas,11,4.077145338058472,fanniemae
+36,parquet (UNC),pandas,12,4.080929517745972,fanniemae
+37,parquet (UNC),pandas,13,4.006199359893799,fanniemae
+38,parquet (UNC),pandas,14,4.117088317871094,fanniemae
+39,parquet (UNC),pandas,15,4.069779634475708,fanniemae
+40,parquet (UNC),pandas,16,4.08424186706543,fanniemae
+41,parquet (UNC),pandas,17,3.9961254596710205,fanniemae
+42,parquet (UNC),pandas,18,3.9913015365600586,fanniemae
+43,parquet (UNC),pandas,19,4.132671356201172,fanniemae
+44,parquet (UNC),pandas,20,4.0458972454071045,fanniemae
+45,parquet (UNC),pandas,21,4.05156683921814,fanniemae
+46,parquet (UNC),pandas,22,4.03484845161438,fanniemae
+47,parquet (UNC),pandas,23,4.124576568603516,fanniemae
+48,parquet (UNC),pandas,24,4.0530242919921875,fanniemae
+49,parquet (UNC),pandas,25,4.093266487121582,fanniemae
+50,parquet (SNAPPY),arrow Table,1,1.8735785484313965,fanniemae
+51,parquet (SNAPPY),arrow Table,2,1.888375997543335,fanniemae
+52,parquet (SNAPPY),arrow Table,3,1.8510491847991943,fanniemae
+53,parquet (SNAPPY),arrow Table,4,1.8142757415771484,fanniemae
+54,parquet (SNAPPY),arrow Table,5,1.881941318511963,fanniemae
+55,parquet (SNAPPY),arrow Table,6,1.8735601902008057,fanniemae
+56,parquet (SNAPPY),arrow Table,7,1.8612911701202393,fanniemae
+57,parquet (SNAPPY),arrow Table,8,1.858757495880127,fanniemae
+58,parquet (SNAPPY),arrow Table,9,1.9375860691070557,fanniemae
+59,parquet (SNAPPY),arrow Table,10,1.9254999160766602,fanniemae
+60,parquet (SNAPPY),arrow Table,11,1.8508884906768799,fanniemae
+61,parquet (SNAPPY),arrow Table,12,1.909067153930664,fanniemae
+62,parquet (SNAPPY),arrow Table,13,1.9374430179595947,fanniemae
+63,parquet (SNAPPY),arrow Table,14,1.8414318561553955,fanniemae
+64,parquet (SNAPPY),arrow Table,15,1.8676581382751465,fanniemae
+65,parquet (SNAPPY),arrow Table,16,1.8751952648162842,fanniemae
+66,parquet (SNAPPY),arrow Table,17,1.9040217399597168,fanniemae
+67,parquet (SNAPPY),arrow Table,18,1.9007976055145264,fanniemae
+68,parquet (SNAPPY),arrow Table,19,1.8959956169128418,fanniemae
+69,parquet (SNAPPY),arrow Table,20,1.865689754486084,fanniemae
+70,parquet (SNAPPY),arrow Table,21,1.8849806785583496,fanniemae
+71,parquet (SNAPPY),arrow Table,22,1.9215450286865234,fanniemae
+72,parquet (SNAPPY),arrow Table,23,1.890002727508545,fanniemae
+73,parquet (SNAPPY),arrow Table,24,1.9065520763397217,fanniemae
+74,parquet (SNAPPY),arrow Table,25,1.8811867237091064,fanniemae
+75,parquet (SNAPPY),pandas,1,4.129929542541504,fanniemae
+76,parquet (SNAPPY),pandas,2,4.253690481185913,fanniemae
+77,parquet (SNAPPY),pandas,3,4.1272053718566895,fanniemae
+78,parquet (SNAPPY),pandas,4,4.068828344345093,fanniemae
+79,parquet (SNAPPY),pandas,5,4.111046552658081,fanniemae
+80,parquet (SNAPPY),pandas,6,4.155121088027954,fanniemae
+81,parquet (SNAPPY),pandas,7,4.062485933303833,fanniemae
+82,parquet (SNAPPY),pandas,8,4.07262659072876,fanniemae
+83,parquet (SNAPPY),pandas,9,4.111922979354858,fanniemae
+84,parquet (SNAPPY),pandas,10,4.1224365234375,fanniemae
+85,parquet (SNAPPY),pandas,11,4.0882248878479,fanniemae
+86,parquet (SNAPPY),pandas,12,4.070269823074341,fanniemae
+87,parquet (SNAPPY),pandas,13,4.158823251724243,fanniemae
+88,parquet (SNAPPY),pandas,14,4.106994390487671,fanniemae
+89,parquet (SNAPPY),pandas,15,4.180354595184326,fanniemae
+90,parquet (SNAPPY),pandas,16,4.235900402069092,fanniemae
+91,parquet (SNAPPY),pandas,17,4.136481046676636,fanniemae
+92,parquet (SNAPPY),pandas,18,4.183649063110352,fanniemae
+93,parquet (SNAPPY),pandas,19,4.100341558456421,fanniemae
+94,parquet (SNAPPY),pandas,20,4.120380401611328,fanniemae
+95,parquet (SNAPPY),pandas,21,4.069418668746948,fanniemae
+96,parquet (SNAPPY),pandas,22,4.165327072143555,fanniemae
+97,parquet (SNAPPY),pandas,23,4.159032344818115,fanniemae
+98,parquet (SNAPPY),pandas,24,4.13359522819519,fanniemae
+99,parquet (SNAPPY),pandas,25,4.180712699890137,fanniemae
+100,feather V2 (UNC),pandas,1,3.6844263076782227,fanniemae
+101,feather V2 (UNC),pandas,2,3.360100507736206,fanniemae
+102,feather V2 (UNC),pandas,3,3.16813325881958,fanniemae
+103,feather V2 (UNC),pandas,4,3.3733623027801514,fanniemae
+104,feather V2 (UNC),pandas,5,3.247476100921631,fanniemae
+105,feather V2 (UNC),pandas,6,3.398937225341797,fanniemae
+106,feather V2 (UNC),pandas,7,3.322021484375,fanniemae
+107,feather V2 (UNC),pandas,8,3.354299783706665,fanniemae
+108,feather V2 (UNC),pandas,9,3.3252713680267334,fanniemae
+109,feather V2 (UNC),pandas,10,3.3489747047424316,fanniemae
+110,feather V2 (UNC),pandas,11,3.3336033821105957,fanniemae
+111,feather V2 (UNC),pandas,12,3.3258166313171387,fanniemae
+112,feather V2 (UNC),pandas,13,3.143800735473633,fanniemae
+113,feather V2 (UNC),pandas,14,3.556093454360962,fanniemae
+114,feather V2 (UNC),pandas,15,3.5256075859069824,fanniemae
+115,feather V2 (UNC),pandas,16,3.0668554306030273,fanniemae
+116,feather V2 (UNC),pandas,17,3.3394641876220703,fanniemae
+117,feather V2 (UNC),pandas,18,3.492105007171631,fanniemae
+118,feather V2 (UNC),pandas,19,3.143270254135132,fanniemae
+119,feather V2 (UNC),pandas,20,3.4853906631469727,fanniemae
+120,feather V2 (UNC),pandas,21,3.3344104290008545,fanniemae
+121,feather V2 (UNC),pandas,22,3.3354008197784424,fanniemae
+122,feather V2 (UNC),pandas,23,3.3230478763580322,fanniemae
+123,feather V2 (UNC),pandas,24,3.1325604915618896,fanniemae
+124,feather V2 (UNC),pandas,25,3.3612000942230225,fanniemae
+125,feather V2 (LZ4),pandas,1,2.8977861404418945,fanniemae
+126,feather V2 (LZ4),pandas,2,2.8440167903900146,fanniemae
+127,feather V2 (LZ4),pandas,3,2.689168691635132,fanniemae
+128,feather V2 (LZ4),pandas,4,2.6935343742370605,fanniemae
+129,feather V2 (LZ4),pandas,5,2.7447457313537598,fanniemae
+130,feather V2 (LZ4),pandas,6,2.7079596519470215,fanniemae
+131,feather V2 (LZ4),pandas,7,2.678786277770996,fanniemae
+132,feather V2 (LZ4),pandas,8,2.6975016593933105,fanniemae
+133,feather V2 (LZ4),pandas,9,2.7299375534057617,fanniemae
+134,feather V2 (LZ4),pandas,10,2.730114221572876,fanniemae
+135,feather V2 (LZ4),pandas,11,2.727389097213745,fanniemae
+136,feather V2 (LZ4),pandas,12,2.6942176818847656,fanniemae
+137,feather V2 (LZ4),pandas,13,2.6858696937561035,fanniemae
+138,feather V2 (LZ4),pandas,14,2.73321533203125,fanniemae
+139,feather V2 (LZ4),pandas,15,2.715686082839966,fanniemae
+140,feather V2 (LZ4),pandas,16,2.6723062992095947,fanniemae
+141,feather V2 (LZ4),pandas,17,2.7644078731536865,fanniemae
+142,feather V2 (LZ4),pandas,18,2.7740273475646973,fanniemae
+143,feather V2 (LZ4),pandas,19,2.719609498977661,fanniemae
+144,feather V2 (LZ4),pandas,20,2.7142293453216553,fanniemae
+145,feather V2 (LZ4),pandas,21,2.713336229324341,fanniemae
+146,feather V2 (LZ4),pandas,22,2.7236931324005127,fanniemae
+147,feather V2 (LZ4),pandas,23,2.6798250675201416,fanniemae
+148,feather V2 (LZ4),pandas,24,2.6905229091644287,fanniemae
+149,feather V2 (LZ4),pandas,25,2.7269864082336426,fanniemae
+150,feather V2 (ZSTD),pandas,1,3.0718259811401367,fanniemae
+151,feather V2 (ZSTD),pandas,2,3.0771310329437256,fanniemae
+152,feather V2 (ZSTD),pandas,3,3.0596070289611816,fanniemae
+153,feather V2 (ZSTD),pandas,4,3.0315346717834473,fanniemae
+154,feather V2 (ZSTD),pandas,5,3.0497024059295654,fanniemae
+155,feather V2 (ZSTD),pandas,6,3.1190497875213623,fanniemae
+156,feather V2 (ZSTD),pandas,7,3.0882794857025146,fanniemae
+157,feather V2 (ZSTD),pandas,8,3.0672194957733154,fanniemae
+158,feather V2 (ZSTD),pandas,9,3.063905954360962,fanniemae
+159,feather V2 (ZSTD),pandas,10,3.103865623474121,fanniemae
+160,feather V2 (ZSTD),pandas,11,3.0645551681518555,fanniemae
+161,feather V2 (ZSTD),pandas,12,3.090174913406372,fanniemae
+162,feather V2 (ZSTD),pandas,13,3.096151113510132,fanniemae
+163,feather V2 (ZSTD),pandas,14,3.067429542541504,fanniemae
+164,feather V2 (ZSTD),pandas,15,3.0590500831604004,fanniemae
+165,feather V2 (ZSTD),pandas,16,3.0240259170532227,fanniemae
+166,feather V2 (ZSTD),pandas,17,3.1157238483428955,fanniemae
+167,feather V2 (ZSTD),pandas,18,3.098641872406006,fanniemae
+168,feather V2 (ZSTD),pandas,19,3.149994373321533,fanniemae
+169,feather V2 (ZSTD),pandas,20,3.0516905784606934,fanniemae
+170,feather V2 (ZSTD),pandas,21,3.069749116897583,fanniemae
+171,feather V2 (ZSTD),pandas,22,3.0297350883483887,fanniemae
+172,feather V2 (ZSTD),pandas,23,3.0633609294891357,fanniemae
+173,feather V2 (ZSTD),pandas,24,3.0825135707855225,fanniemae
+174,feather V2 (ZSTD),pandas,25,3.2315194606781006,fanniemae
+175,feather V2 (UNC),arrow Table,1,1.487320899963379,fanniemae
+176,feather V2 (UNC),arrow Table,2,1.1130855083465576,fanniemae
+177,feather V2 (UNC),arrow Table,3,1.0283372402191162,fanniemae
+178,feather V2 (UNC),arrow Table,4,0.8702657222747803,fanniemae
+179,feather V2 (UNC),arrow Table,5,1.0918269157409668,fanniemae
+180,feather V2 (UNC),arrow Table,6,0.8960137367248535,fanniemae
+181,feather V2 (UNC),arrow Table,7,0.6453704833984375,fanniemae
+182,feather V2 (UNC),arrow Table,8,0.8798394203186035,fanniemae
+183,feather V2 (UNC),arrow Table,9,0.7953264713287354,fanniemae
+184,feather V2 (UNC),arrow Table,10,1.1473369598388672,fanniemae
+185,feather V2 (UNC),arrow Table,11,1.1003458499908447,fanniemae
+186,feather V2 (UNC),arrow Table,12,1.166794776916504,fanniemae
+187,feather V2 (UNC),arrow Table,13,0.8968572616577148,fanniemae
+188,feather V2 (UNC),arrow Table,14,0.8061506748199463,fanniemae
+189,feather V2 (UNC),arrow Table,15,1.0189881324768066,fanniemae
+190,feather V2 (UNC),arrow Table,16,0.8680381774902344,fanniemae
+191,feather V2 (UNC),arrow Table,17,1.045623540878296,fanniemae
+192,feather V2 (UNC),arrow Table,18,1.0269722938537598,fanniemae
+193,feather V2 (UNC),arrow Table,19,0.9004700183868408,fanniemae
+194,feather V2 (UNC),arrow Table,20,1.0938916206359863,fanniemae
+195,feather V2 (UNC),arrow Table,21,0.8977062702178955,fanniemae
+196,feather V2 (UNC),arrow Table,22,0.9602031707763672,fanniemae
+197,feather V2 (UNC),arrow Table,23,1.0705804824829102,fanniemae
+198,feather V2 (UNC),arrow Table,24,1.0821373462677002,fanniemae
+199,feather V2 (UNC),arrow Table,25,1.0671007633209229,fanniemae
+200,feather V2 (LZ4),arrow Table,1,0.7396261692047119,fanniemae
+201,feather V2 (LZ4),arrow Table,2,0.522829532623291,fanniemae
+202,feather V2 (LZ4),arrow Table,3,0.49007582664489746,fanniemae
+203,feather V2 (LZ4),arrow Table,4,0.455120325088501,fanniemae
+204,feather V2 (LZ4),arrow Table,5,0.4440140724182129,fanniemae
+205,feather V2 (LZ4),arrow Table,6,0.4454686641693115,fanniemae
+206,feather V2 (LZ4),arrow Table,7,0.45433831214904785,fanniemae
+207,feather V2 (LZ4),arrow Table,8,0.47652530670166016,fanniemae
+208,feather V2 (LZ4),arrow Table,9,0.48475050926208496,fanniemae
+209,feather V2 (LZ4),arrow Table,10,0.48747897148132324,fanniemae
+210,feather V2 (LZ4),arrow Table,11,0.4671964645385742,fanniemae
+211,feather V2 (LZ4),arrow Table,12,0.45499372482299805,fanniemae
+212,feather V2 (LZ4),arrow Table,13,0.4964485168457031,fanniemae
+213,feather V2 (LZ4),arrow Table,14,0.4808945655822754,fanniemae
+214,feather V2 (LZ4),arrow Table,15,0.4598538875579834,fanniemae
+215,feather V2 (LZ4),arrow Table,16,0.45647144317626953,fanniemae
+216,feather V2 (LZ4),arrow Table,17,0.4512765407562256,fanniemae
+217,feather V2 (LZ4),arrow Table,18,0.4542734622955322,fanniemae
+218,feather V2 (LZ4),arrow Table,19,0.4623591899871826,fanniemae
+219,feather V2 (LZ4),arrow Table,20,0.45061755180358887,fanniemae
+220,feather V2 (LZ4),arrow Table,21,0.4760465621948242,fanniemae
+221,feather V2 (LZ4),arrow Table,22,0.48090267181396484,fanniemae
+222,feather V2 (LZ4),arrow Table,23,0.4781761169433594,fanniemae
+223,feather V2 (LZ4),arrow Table,24,0.48758578300476074,fanniemae
+224,feather V2 (LZ4),arrow Table,25,0.4606308937072754,fanniemae
+225,feather V2 (ZSTD),arrow Table,1,0.795588493347168,fanniemae
+226,feather V2 (ZSTD),arrow Table,2,0.8152432441711426,fanniemae
+227,feather V2 (ZSTD),arrow Table,3,0.8332817554473877,fanniemae
+228,feather V2 (ZSTD),arrow Table,4,0.8088061809539795,fanniemae
+229,feather V2 (ZSTD),arrow Table,5,0.8051068782806396,fanniemae
+230,feather V2 (ZSTD),arrow Table,6,0.8073616027832031,fanniemae
+231,feather V2 (ZSTD),arrow Table,7,0.8147332668304443,fanniemae
+232,feather V2 (ZSTD),arrow Table,8,0.803351879119873,fanniemae
+233,feather V2 (ZSTD),arrow Table,9,0.8197026252746582,fanniemae
+234,feather V2 (ZSTD),arrow Table,10,0.8084416389465332,fanniemae
+235,feather V2 (ZSTD),arrow Table,11,0.8172147274017334,fanniemae
+236,feather V2 (ZSTD),arrow Table,12,0.8358297348022461,fanniemae
+237,feather V2 (ZSTD),arrow Table,13,0.8234505653381348,fanniemae
+238,feather V2 (ZSTD),arrow Table,14,0.8242270946502686,fanniemae
+239,feather V2 (ZSTD),arrow Table,15,0.794285774230957,fanniemae
+240,feather V2 (ZSTD),arrow Table,16,0.7808623313903809,fanniemae
+241,feather V2 (ZSTD),arrow Table,17,0.794597864151001,fanniemae
+242,feather V2 (ZSTD),arrow Table,18,0.827286958694458,fanniemae
+243,feather V2 (ZSTD),arrow Table,19,0.7976975440979004,fanniemae
+244,feather V2 (ZSTD),arrow Table,20,0.7953953742980957,fanniemae
+245,feather V2 (ZSTD),arrow Table,21,0.7972776889801025,fanniemae
+246,feather V2 (ZSTD),arrow Table,22,0.8157739639282227,fanniemae
+247,feather V2 (ZSTD),arrow Table,23,0.8181297779083252,fanniemae
+248,feather V2 (ZSTD),arrow Table,24,0.8295466899871826,fanniemae
+249,feather V2 (ZSTD),arrow Table,25,0.797666072845459,fanniemae

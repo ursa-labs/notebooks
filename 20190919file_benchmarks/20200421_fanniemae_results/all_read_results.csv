@@ -1,0 +1,951 @@
+expr,time,iteration,dataset,output_type,nthreads,language
+csv_fread,18.515616239,1,fanniemae,R data.frame,1,R
+csv_fread,17.239687431,2,fanniemae,R data.frame,1,R
+csv_fread,16.85667956,3,fanniemae,R data.frame,1,R
+csv_fread,17.749012883,4,fanniemae,R data.frame,1,R
+csv_fread,17.767475538,5,fanniemae,R data.frame,1,R
+csv_fread,17.029960347,6,fanniemae,R data.frame,1,R
+csv_fread,17.136500218,7,fanniemae,R data.frame,1,R
+csv_fread,17.413993001,8,fanniemae,R data.frame,1,R
+csv_fread,17.512057396,9,fanniemae,R data.frame,1,R
+csv_fread,17.669071116,10,fanniemae,R data.frame,1,R
+csv_fread,17.060648808,11,fanniemae,R data.frame,1,R
+csv_fread,16.599172412,12,fanniemae,R data.frame,1,R
+csv_fread,17.375877588,13,fanniemae,R data.frame,1,R
+csv_fread,17.556590239,14,fanniemae,R data.frame,1,R
+csv_fread,17.615399552,15,fanniemae,R data.frame,1,R
+csv_fread,17.046929567,16,fanniemae,R data.frame,1,R
+csv_fread,16.908419155,17,fanniemae,R data.frame,1,R
+csv_fread,16.978244893,18,fanniemae,R data.frame,1,R
+csv_fread,16.650589591,19,fanniemae,R data.frame,1,R
+csv_fread,16.808907289,20,fanniemae,R data.frame,1,R
+csv_fread,17.349821769,21,fanniemae,R data.frame,1,R
+csv_fread,16.801383143,22,fanniemae,R data.frame,1,R
+csv_fread,16.631459385,23,fanniemae,R data.frame,1,R
+csv_fread,17.039666349,24,fanniemae,R data.frame,1,R
+csv_fread,17.616878647,25,fanniemae,R data.frame,1,R
+fst (UNC),0.001825005,1,fanniemae,R data.frame,1,R
+fst (UNC),0.00148402,2,fanniemae,R data.frame,1,R
+fst (UNC),0.001255387,3,fanniemae,R data.frame,1,R
+fst (UNC),0.001309602,4,fanniemae,R data.frame,1,R
+fst (UNC),0.001489552,5,fanniemae,R data.frame,1,R
+fst (UNC),0.001682011,6,fanniemae,R data.frame,1,R
+fst (UNC),0.001688105,7,fanniemae,R data.frame,1,R
+fst (UNC),0.001732359,8,fanniemae,R data.frame,1,R
+fst (UNC),0.0018699,9,fanniemae,R data.frame,1,R
+fst (UNC),0.001690612,10,fanniemae,R data.frame,1,R
+fst (UNC),0.00168854,11,fanniemae,R data.frame,1,R
+fst (UNC),0.001685443,12,fanniemae,R data.frame,1,R
+fst (UNC),0.001684728,13,fanniemae,R data.frame,1,R
+fst (UNC),0.001701823,14,fanniemae,R data.frame,1,R
+fst (UNC),0.001681794,15,fanniemae,R data.frame,1,R
+fst (UNC),0.001691341,16,fanniemae,R data.frame,1,R
+fst (UNC),0.001684204,17,fanniemae,R data.frame,1,R
+fst (UNC),0.001673542,18,fanniemae,R data.frame,1,R
+fst (UNC),0.001680421,19,fanniemae,R data.frame,1,R
+fst (UNC),0.001688354,20,fanniemae,R data.frame,1,R
+fst (UNC),0.001680698,21,fanniemae,R data.frame,1,R
+fst (UNC),0.001669274,22,fanniemae,R data.frame,1,R
+fst (UNC),0.001706091,23,fanniemae,R data.frame,1,R
+fst (UNC),0.001717802,24,fanniemae,R data.frame,1,R
+fst (UNC),0.001761631,25,fanniemae,R data.frame,1,R
+fst (c=50),0.002043967,1,fanniemae,R data.frame,1,R
+fst (c=50),0.001973844,2,fanniemae,R data.frame,1,R
+fst (c=50),0.001979857,3,fanniemae,R data.frame,1,R
+fst (c=50),0.00195934,4,fanniemae,R data.frame,1,R
+fst (c=50),0.001954538,5,fanniemae,R data.frame,1,R
+fst (c=50),0.001952918,6,fanniemae,R data.frame,1,R
+fst (c=50),0.001962961,7,fanniemae,R data.frame,1,R
+fst (c=50),0.001956892,8,fanniemae,R data.frame,1,R
+fst (c=50),0.001955688,9,fanniemae,R data.frame,1,R
+fst (c=50),0.001951367,10,fanniemae,R data.frame,1,R
+fst (c=50),0.001956372,11,fanniemae,R data.frame,1,R
+fst (c=50),0.001951674,12,fanniemae,R data.frame,1,R
+fst (c=50),0.001958861,13,fanniemae,R data.frame,1,R
+fst (c=50),0.001955755,14,fanniemae,R data.frame,1,R
+fst (c=50),0.001961809,15,fanniemae,R data.frame,1,R
+fst (c=50),0.002093852,16,fanniemae,R data.frame,1,R
+fst (c=50),0.001943321,17,fanniemae,R data.frame,1,R
+fst (c=50),0.001983634,18,fanniemae,R data.frame,1,R
+fst (c=50),0.001958847,19,fanniemae,R data.frame,1,R
+fst (c=50),0.001957964,20,fanniemae,R data.frame,1,R
+fst (c=50),0.001957857,21,fanniemae,R data.frame,1,R
+fst (c=50),0.001948845,22,fanniemae,R data.frame,1,R
+fst (c=50),0.002032686,23,fanniemae,R data.frame,1,R
+fst (c=50),0.001997702,24,fanniemae,R data.frame,1,R
+fst (c=50),0.001999307,25,fanniemae,R data.frame,1,R
+feather V1,0.004659896,1,fanniemae,R data.frame,1,R
+feather V1,0.003074102,2,fanniemae,R data.frame,1,R
+feather V1,0.00306188,3,fanniemae,R data.frame,1,R
+feather V1,0.003004824,4,fanniemae,R data.frame,1,R
+feather V1,0.003185765,5,fanniemae,R data.frame,1,R
+feather V1,0.003013433,6,fanniemae,R data.frame,1,R
+feather V1,0.003041052,7,fanniemae,R data.frame,1,R
+feather V1,0.003064778,8,fanniemae,R data.frame,1,R
+feather V1,0.002997168,9,fanniemae,R data.frame,1,R
+feather V1,0.00303215,10,fanniemae,R data.frame,1,R
+feather V1,0.003001317,11,fanniemae,R data.frame,1,R
+feather V1,0.002991919,12,fanniemae,R data.frame,1,R
+feather V1,0.003067504,13,fanniemae,R data.frame,1,R
+feather V1,0.002997152,14,fanniemae,R data.frame,1,R
+feather V1,0.003038476,15,fanniemae,R data.frame,1,R
+feather V1,0.003017355,16,fanniemae,R data.frame,1,R
+feather V1,0.003006734,17,fanniemae,R data.frame,1,R
+feather V1,0.003014985,18,fanniemae,R data.frame,1,R
+feather V1,0.003088262,19,fanniemae,R data.frame,1,R
+feather V1,0.003173561,20,fanniemae,R data.frame,1,R
+feather V1,0.002986906,21,fanniemae,R data.frame,1,R
+feather V1,0.002999254,22,fanniemae,R data.frame,1,R
+feather V1,0.003000478,23,fanniemae,R data.frame,1,R
+feather V1,0.003044985,24,fanniemae,R data.frame,1,R
+feather V1,0.003170127,25,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.004085434,1,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002303908,2,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002196385,3,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002317314,4,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002478198,5,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002183468,6,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.00219303,7,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002221013,8,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002175951,9,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002248586,10,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002206261,11,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002250711,12,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002286414,13,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002268059,14,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.00238441,15,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002492858,16,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002323653,17,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.00229968,18,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002318943,19,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002276599,20,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002334701,21,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002499302,22,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002360823,23,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002519021,24,fanniemae,R data.frame,1,R
+feather V2 (UNC),0.002264117,25,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003271615,1,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.030206806,2,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003065616,3,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003099914,4,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.00315877,5,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003040191,6,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003196112,7,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003741363,8,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003210957,9,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003060359,10,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003090503,11,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003075567,12,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003127559,13,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003463647,14,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.004093606,15,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003311986,16,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003065934,17,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003099545,18,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003388387,19,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003073023,20,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003031464,21,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.002951567,22,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.00293683,23,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003099399,24,fanniemae,R data.frame,1,R
+feather V2 (LZ4),0.003005996,25,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003507325,1,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003567219,2,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003549205,3,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003428519,4,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003600425,5,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003513637,6,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003537699,7,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003817015,8,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.004295503,9,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003538977,10,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003601626,11,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003572851,12,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003527848,13,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003597948,14,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003568375,15,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003543752,16,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003570217,17,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.00359387,18,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003573015,19,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003620209,20,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003518226,21,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003549914,22,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003540169,23,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003504292,24,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),0.003524917,25,fanniemae,R data.frame,1,R
+parquet (UNC),0.005393296,1,fanniemae,R data.frame,1,R
+parquet (UNC),0.00525986,2,fanniemae,R data.frame,1,R
+parquet (UNC),0.005217118,3,fanniemae,R data.frame,1,R
+parquet (UNC),0.00520549,4,fanniemae,R data.frame,1,R
+parquet (UNC),0.009065133,5,fanniemae,R data.frame,1,R
+parquet (UNC),0.004711957,6,fanniemae,R data.frame,1,R
+parquet (UNC),0.004594953,7,fanniemae,R data.frame,1,R
+parquet (UNC),0.004526692,8,fanniemae,R data.frame,1,R
+parquet (UNC),0.004604448,9,fanniemae,R data.frame,1,R
+parquet (UNC),0.004573389,10,fanniemae,R data.frame,1,R
+parquet (UNC),0.004599706,11,fanniemae,R data.frame,1,R
+parquet (UNC),0.004664359,12,fanniemae,R data.frame,1,R
+parquet (UNC),0.004591849,13,fanniemae,R data.frame,1,R
+parquet (UNC),0.005698205,14,fanniemae,R data.frame,1,R
+parquet (UNC),0.005189562,15,fanniemae,R data.frame,1,R
+parquet (UNC),0.004958295,16,fanniemae,R data.frame,1,R
+parquet (UNC),0.004723869,17,fanniemae,R data.frame,1,R
+parquet (UNC),0.004776257,18,fanniemae,R data.frame,1,R
+parquet (UNC),0.004581177,19,fanniemae,R data.frame,1,R
+parquet (UNC),0.004649475,20,fanniemae,R data.frame,1,R
+parquet (UNC),0.004563932,21,fanniemae,R data.frame,1,R
+parquet (UNC),0.004687064,22,fanniemae,R data.frame,1,R
+parquet (UNC),0.004625363,23,fanniemae,R data.frame,1,R
+parquet (UNC),0.004564328,24,fanniemae,R data.frame,1,R
+parquet (UNC),0.004594796,25,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004790863,1,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004720809,2,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004729521,3,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004857263,4,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004646229,5,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004642485,6,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005138257,7,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005223214,8,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005289608,9,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004813269,10,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004719492,11,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004746994,12,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004718107,13,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005017423,14,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005193284,15,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005165033,16,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005094252,17,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.00507092,18,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005642075,19,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005608477,20,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005252833,21,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005220206,22,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.005200415,23,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.009966616,24,fanniemae,R data.frame,1,R
+parquet (SNAPPY),0.004740851,25,fanniemae,R data.frame,1,R
+parquet (UNC),5.958717584609985,1,fanniemae,arrow Table,1,Python
+parquet (UNC),5.7716925144195566,2,fanniemae,arrow Table,1,Python
+parquet (UNC),6.019573450088501,3,fanniemae,arrow Table,1,Python
+parquet (UNC),5.777580499649048,4,fanniemae,arrow Table,1,Python
+parquet (UNC),5.846571445465088,5,fanniemae,arrow Table,1,Python
+parquet (UNC),5.833968162536621,6,fanniemae,arrow Table,1,Python
+parquet (UNC),6.026460409164429,7,fanniemae,arrow Table,1,Python
+parquet (UNC),6.079472064971924,8,fanniemae,arrow Table,1,Python
+parquet (UNC),6.1201653480529785,9,fanniemae,arrow Table,1,Python
+parquet (UNC),5.863774538040161,10,fanniemae,arrow Table,1,Python
+parquet (UNC),5.836578130722046,11,fanniemae,arrow Table,1,Python
+parquet (UNC),5.94389271736145,12,fanniemae,arrow Table,1,Python
+parquet (UNC),5.934643507003784,13,fanniemae,arrow Table,1,Python
+parquet (UNC),5.738611698150635,14,fanniemae,arrow Table,1,Python
+parquet (UNC),5.7847325801849365,15,fanniemae,arrow Table,1,Python
+parquet (UNC),5.64094614982605,16,fanniemae,arrow Table,1,Python
+parquet (UNC),5.64770245552063,17,fanniemae,arrow Table,1,Python
+parquet (UNC),5.595053672790527,18,fanniemae,arrow Table,1,Python
+parquet (UNC),5.5481088161468515,19,fanniemae,arrow Table,1,Python
+parquet (UNC),5.686630725860597,20,fanniemae,arrow Table,1,Python
+parquet (UNC),5.7224977016448975,21,fanniemae,arrow Table,1,Python
+parquet (UNC),5.523723602294922,22,fanniemae,arrow Table,1,Python
+parquet (UNC),5.614639520645142,23,fanniemae,arrow Table,1,Python
+parquet (UNC),5.809746265411378,24,fanniemae,arrow Table,1,Python
+parquet (UNC),5.649839401245117,25,fanniemae,arrow Table,1,Python
+parquet (UNC),8.844743251800537,1,fanniemae,pandas,1,Python
+parquet (UNC),8.942275047302246,2,fanniemae,pandas,1,Python
+parquet (UNC),8.967353105545042,3,fanniemae,pandas,1,Python
+parquet (UNC),8.917935371398926,4,fanniemae,pandas,1,Python
+parquet (UNC),8.887453794479368,5,fanniemae,pandas,1,Python
+parquet (UNC),8.647903203964232,6,fanniemae,pandas,1,Python
+parquet (UNC),8.910435438156126,7,fanniemae,pandas,1,Python
+parquet (UNC),8.858087539672852,8,fanniemae,pandas,1,Python
+parquet (UNC),8.812366485595703,9,fanniemae,pandas,1,Python
+parquet (UNC),8.979599475860596,10,fanniemae,pandas,1,Python
+parquet (UNC),8.810333728790283,11,fanniemae,pandas,1,Python
+parquet (UNC),8.980743408203125,12,fanniemae,pandas,1,Python
+parquet (UNC),8.843650817871094,13,fanniemae,pandas,1,Python
+parquet (UNC),8.973165273666384,14,fanniemae,pandas,1,Python
+parquet (UNC),8.777505159378054,15,fanniemae,pandas,1,Python
+parquet (UNC),9.182312488555908,16,fanniemae,pandas,1,Python
+parquet (UNC),8.933988571166992,17,fanniemae,pandas,1,Python
+parquet (UNC),8.912987470626833,18,fanniemae,pandas,1,Python
+parquet (UNC),9.0910325050354,19,fanniemae,pandas,1,Python
+parquet (UNC),9.138293504714968,20,fanniemae,pandas,1,Python
+parquet (UNC),9.17813801765442,21,fanniemae,pandas,1,Python
+parquet (UNC),9.205705404281618,22,fanniemae,pandas,1,Python
+parquet (UNC),9.190732955932617,23,fanniemae,pandas,1,Python
+parquet (UNC),9.214712858200071,24,fanniemae,pandas,1,Python
+parquet (UNC),9.115978956222532,25,fanniemae,pandas,1,Python
+parquet (SNAPPY),6.140426158905028,1,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.274650812149048,2,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.986218690872192,3,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.953378438949585,4,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.9984381198883066,5,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.8848302364349365,6,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.011472463607787,7,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.987775802612305,8,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.136636972427367,9,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.202025651931763,10,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.99034595489502,11,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.1840341091156015,12,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.252204418182372,13,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.166961193084718,14,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.010697603225707,15,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.0068347454071045,16,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.028901100158691,17,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.344752311706543,18,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.017845392227173,19,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.012223482131957,20,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.3493902683258066,21,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.4216156005859375,22,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),6.126400947570801,23,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.807847499847412,24,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),5.7444090843200675,25,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),8.895919084548948,1,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.840948581695557,2,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.058910131454466,3,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.639244079589844,4,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.232505083084105,5,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.028400182724,6,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.065468788146973,7,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.057602405548096,8,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.000349998474121,9,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.007542371749876,10,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.152139425277712,11,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.168591976165773,12,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.582043647766113,13,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.380167484283447,14,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.168402671813963,15,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.123501777648926,16,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.002827644348145,17,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.95402264595032,18,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.036872386932373,19,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.894625663757324,20,fanniemae,pandas,1,Python
+parquet (SNAPPY),9.003835916519163,21,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.916290283203125,22,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.944381475448607,23,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.943319320678711,24,fanniemae,pandas,1,Python
+parquet (SNAPPY),8.980766534805296,25,fanniemae,pandas,1,Python
+feather V2 (UNC),4.4572486877441415,1,fanniemae,pandas,1,Python
+feather V2 (UNC),4.643685817718506,2,fanniemae,pandas,1,Python
+feather V2 (UNC),4.214702367782594,3,fanniemae,pandas,1,Python
+feather V2 (UNC),4.186798095703125,4,fanniemae,pandas,1,Python
+feather V2 (UNC),4.203601598739623,5,fanniemae,pandas,1,Python
+feather V2 (UNC),4.332154273986816,6,fanniemae,pandas,1,Python
+feather V2 (UNC),4.193521738052368,7,fanniemae,pandas,1,Python
+feather V2 (UNC),4.296589136123656,8,fanniemae,pandas,1,Python
+feather V2 (UNC),4.001316308975221,9,fanniemae,pandas,1,Python
+feather V2 (UNC),4.1113030910491934,10,fanniemae,pandas,1,Python
+feather V2 (UNC),4.2620272636413565,11,fanniemae,pandas,1,Python
+feather V2 (UNC),4.181995153427123,12,fanniemae,pandas,1,Python
+feather V2 (UNC),4.202219247817993,13,fanniemae,pandas,1,Python
+feather V2 (UNC),4.190602779388429,14,fanniemae,pandas,1,Python
+feather V2 (UNC),4.195235729217528,15,fanniemae,pandas,1,Python
+feather V2 (UNC),4.216253757476807,16,fanniemae,pandas,1,Python
+feather V2 (UNC),4.502807855606079,17,fanniemae,pandas,1,Python
+feather V2 (UNC),4.7168099880218515,18,fanniemae,pandas,1,Python
+feather V2 (UNC),4.592482328414917,19,fanniemae,pandas,1,Python
+feather V2 (UNC),4.603683710098267,20,fanniemae,pandas,1,Python
+feather V2 (UNC),4.638794898986816,21,fanniemae,pandas,1,Python
+feather V2 (UNC),4.460405111312866,22,fanniemae,pandas,1,Python
+feather V2 (UNC),4.33013916015625,23,fanniemae,pandas,1,Python
+feather V2 (UNC),4.755754232406616,24,fanniemae,pandas,1,Python
+feather V2 (UNC),4.803029775619507,25,fanniemae,pandas,1,Python
+feather V2 (LZ4),5.24675178527832,1,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.274237632751465,2,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.382009506225587,3,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.465814113616943,4,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.280907154083252,5,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.481952905654907,6,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.300840616226196,7,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.4295294284820566,8,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.499189615249634,9,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.3508050441741934,10,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.44158411026001,11,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.3572819232940665,12,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.297301054000855,13,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.330029010772705,14,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.180967330932616,15,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.132618427276611,16,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.139124393463135,17,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.180357933044434,18,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.138166904449463,19,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.144500494003297,20,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.122578859329224,21,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.057637691497804,22,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.454875469207764,23,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.622371435165405,24,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.540443658828735,25,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.340319871902466,1,fanniemae,pandas,1,Python
+feather V2 (ZSTD),5.93359375,2,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.305314540863037,3,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.522407054901122,4,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.496535062789918,5,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.634479999542236,6,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.3887383937835684,7,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.164891719818115,8,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.1920201778411865,9,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.3234639167785645,10,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.527165412902832,11,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.302922248840332,12,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.047930240631104,13,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.269523620605469,14,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.063889503479004,15,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.345404863357544,16,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.450485944747925,17,fanniemae,pandas,1,Python
+feather V2 (ZSTD),5.958613395690918,18,fanniemae,pandas,1,Python
+feather V2 (ZSTD),5.913830280303955,19,fanniemae,pandas,1,Python
+feather V2 (ZSTD),5.975273370742798,20,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.340196132659912,21,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.39284348487854,22,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.515064716339111,23,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.2544493675231925,24,fanniemae,pandas,1,Python
+feather V2 (ZSTD),6.2400736808776855,25,fanniemae,pandas,1,Python
+feather V2 (UNC),1.6985278129577637,1,fanniemae,arrow Table,1,Python
+feather V2 (UNC),0.8561058044433594,2,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.2170312404632568,3,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.3412725925445557,4,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.2736029624938965,5,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.1955709457397459,6,fanniemae,arrow Table,1,Python
+feather V2 (UNC),0.773634672164917,7,fanniemae,arrow Table,1,Python
+feather V2 (UNC),0.8790225982666016,8,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.0928401947021484,9,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.0632336139678955,10,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.1120846271514893,11,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.0646967887878418,12,fanniemae,arrow Table,1,Python
+feather V2 (UNC),0.9401822090148926,13,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.2970376014709473,14,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.1725237369537354,15,fanniemae,arrow Table,1,Python
+feather V2 (UNC),0.8059277534484863,16,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.215146541595459,17,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.0356037616729736,18,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.113349437713623,19,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.118849277496338,20,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.2079384326934814,21,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.0640254020690918,22,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.0990893840789795,23,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.2625811100006104,24,fanniemae,arrow Table,1,Python
+feather V2 (UNC),1.1280391216278076,25,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.9388997554779053,1,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.077182054519653,2,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.3685736656188965,3,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1439120769500732,4,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1284050941467283,5,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),0.984449863433838,6,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1710798740386963,7,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),0.996913194656372,8,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),0.981760025024414,9,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),0.980269193649292,10,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1810832023620603,11,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0101840496063232,12,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),0.9899985790252686,13,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),0.9948830604553224,14,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1258533000946045,15,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.136335372924805,16,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1750688552856443,17,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1827640533447266,18,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.1139802932739258,19,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0755765438079834,20,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0110149383544922,21,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0125546455383299,22,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0453875064849854,23,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.3730106353759766,24,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0728347301483154,25,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.6260673999786377,1,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.6736409664154053,2,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.8685884475708012,3,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.8122870922088623,4,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.733154535293579,5,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.7428908348083496,6,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.677683591842652,7,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.731536388397217,8,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.755606412887573,9,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.700017213821411,10,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.744925737380981,11,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.855191707611084,12,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.9162578582763667,13,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.8446989059448238,14,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.7737011909484863,15,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.756772756576538,16,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.881796598434448,17,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.7889087200164795,18,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.7625699043273926,19,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.7917110919952397,20,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.7649154663085938,21,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.774594783782959,22,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.761726856231689,23,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.791221618652344,24,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.877959012985229,25,fanniemae,arrow Table,1,Python
+csv_fread,9.825344845,1,fanniemae,R data.frame,4,R
+csv_fread,7.632812912,2,fanniemae,R data.frame,4,R
+csv_fread,7.323705231,3,fanniemae,R data.frame,4,R
+csv_fread,8.177842379,4,fanniemae,R data.frame,4,R
+csv_fread,7.768213477,5,fanniemae,R data.frame,4,R
+csv_fread,7.501949546,6,fanniemae,R data.frame,4,R
+csv_fread,7.447177583,7,fanniemae,R data.frame,4,R
+csv_fread,8.050064657,8,fanniemae,R data.frame,4,R
+csv_fread,8.233843618,9,fanniemae,R data.frame,4,R
+csv_fread,8.455906909,10,fanniemae,R data.frame,4,R
+csv_fread,7.78616838,11,fanniemae,R data.frame,4,R
+csv_fread,7.396141293,12,fanniemae,R data.frame,4,R
+csv_fread,8.126761378,13,fanniemae,R data.frame,4,R
+csv_fread,8.390040434,14,fanniemae,R data.frame,4,R
+csv_fread,8.434924104,15,fanniemae,R data.frame,4,R
+csv_fread,7.676378687,16,fanniemae,R data.frame,4,R
+csv_fread,7.600269526,17,fanniemae,R data.frame,4,R
+csv_fread,7.701734801,18,fanniemae,R data.frame,4,R
+csv_fread,7.486367825,19,fanniemae,R data.frame,4,R
+csv_fread,7.727104648,20,fanniemae,R data.frame,4,R
+csv_fread,8.228941061,21,fanniemae,R data.frame,4,R
+csv_fread,7.529385378,22,fanniemae,R data.frame,4,R
+csv_fread,7.42988835,23,fanniemae,R data.frame,4,R
+csv_fread,7.794986096,24,fanniemae,R data.frame,4,R
+csv_fread,8.331378929,25,fanniemae,R data.frame,4,R
+fst (UNC),0.0017879,1,fanniemae,R data.frame,4,R
+fst (UNC),0.001424092,2,fanniemae,R data.frame,4,R
+fst (UNC),0.001352367,3,fanniemae,R data.frame,4,R
+fst (UNC),0.001265168,4,fanniemae,R data.frame,4,R
+fst (UNC),0.001423963,5,fanniemae,R data.frame,4,R
+fst (UNC),0.001644388,6,fanniemae,R data.frame,4,R
+fst (UNC),0.001679262,7,fanniemae,R data.frame,4,R
+fst (UNC),0.00177371,8,fanniemae,R data.frame,4,R
+fst (UNC),0.001821538,9,fanniemae,R data.frame,4,R
+fst (UNC),0.00166641,10,fanniemae,R data.frame,4,R
+fst (UNC),0.001725325,11,fanniemae,R data.frame,4,R
+fst (UNC),0.001688436,12,fanniemae,R data.frame,4,R
+fst (UNC),0.001684036,13,fanniemae,R data.frame,4,R
+fst (UNC),0.001697564,14,fanniemae,R data.frame,4,R
+fst (UNC),0.001721555,15,fanniemae,R data.frame,4,R
+fst (UNC),0.001725933,16,fanniemae,R data.frame,4,R
+fst (UNC),0.001690597,17,fanniemae,R data.frame,4,R
+fst (UNC),0.001695896,18,fanniemae,R data.frame,4,R
+fst (UNC),0.002077211,19,fanniemae,R data.frame,4,R
+fst (UNC),0.001855691,20,fanniemae,R data.frame,4,R
+fst (UNC),0.001813321,21,fanniemae,R data.frame,4,R
+fst (UNC),0.001763222,22,fanniemae,R data.frame,4,R
+fst (UNC),0.001730454,23,fanniemae,R data.frame,4,R
+fst (UNC),0.00171348,24,fanniemae,R data.frame,4,R
+fst (UNC),0.001736965,25,fanniemae,R data.frame,4,R
+fst (c=50),0.001950953,1,fanniemae,R data.frame,4,R
+fst (c=50),0.001927683,2,fanniemae,R data.frame,4,R
+fst (c=50),0.001876865,3,fanniemae,R data.frame,4,R
+fst (c=50),0.001856273,4,fanniemae,R data.frame,4,R
+fst (c=50),0.001862932,5,fanniemae,R data.frame,4,R
+fst (c=50),0.001870604,6,fanniemae,R data.frame,4,R
+fst (c=50),0.001865896,7,fanniemae,R data.frame,4,R
+fst (c=50),0.001898235,8,fanniemae,R data.frame,4,R
+fst (c=50),0.001914969,9,fanniemae,R data.frame,4,R
+fst (c=50),0.001889802,10,fanniemae,R data.frame,4,R
+fst (c=50),0.001874082,11,fanniemae,R data.frame,4,R
+fst (c=50),0.001915886,12,fanniemae,R data.frame,4,R
+fst (c=50),0.001870958,13,fanniemae,R data.frame,4,R
+fst (c=50),0.001894501,14,fanniemae,R data.frame,4,R
+fst (c=50),0.001878683,15,fanniemae,R data.frame,4,R
+fst (c=50),0.001867904,16,fanniemae,R data.frame,4,R
+fst (c=50),0.001896614,17,fanniemae,R data.frame,4,R
+fst (c=50),0.001880614,18,fanniemae,R data.frame,4,R
+fst (c=50),0.001861807,19,fanniemae,R data.frame,4,R
+fst (c=50),0.00187906,20,fanniemae,R data.frame,4,R
+fst (c=50),0.001910318,21,fanniemae,R data.frame,4,R
+fst (c=50),0.001878342,22,fanniemae,R data.frame,4,R
+fst (c=50),0.001990553,23,fanniemae,R data.frame,4,R
+fst (c=50),0.001989504,24,fanniemae,R data.frame,4,R
+fst (c=50),0.001986374,25,fanniemae,R data.frame,4,R
+feather V1,0.004700734,1,fanniemae,R data.frame,4,R
+feather V1,0.003259552,2,fanniemae,R data.frame,4,R
+feather V1,0.003176339,3,fanniemae,R data.frame,4,R
+feather V1,0.003209428,4,fanniemae,R data.frame,4,R
+feather V1,0.003103906,5,fanniemae,R data.frame,4,R
+feather V1,0.003059609,6,fanniemae,R data.frame,4,R
+feather V1,0.003078399,7,fanniemae,R data.frame,4,R
+feather V1,0.003133103,8,fanniemae,R data.frame,4,R
+feather V1,0.003209571,9,fanniemae,R data.frame,4,R
+feather V1,0.003060134,10,fanniemae,R data.frame,4,R
+feather V1,0.003068729,11,fanniemae,R data.frame,4,R
+feather V1,0.003078165,12,fanniemae,R data.frame,4,R
+feather V1,0.003197685,13,fanniemae,R data.frame,4,R
+feather V1,0.003142119,14,fanniemae,R data.frame,4,R
+feather V1,0.003200583,15,fanniemae,R data.frame,4,R
+feather V1,0.003044886,16,fanniemae,R data.frame,4,R
+feather V1,0.003151146,17,fanniemae,R data.frame,4,R
+feather V1,0.003182895,18,fanniemae,R data.frame,4,R
+feather V1,0.003093884,19,fanniemae,R data.frame,4,R
+feather V1,0.003077894,20,fanniemae,R data.frame,4,R
+feather V1,0.003087992,21,fanniemae,R data.frame,4,R
+feather V1,0.003126426,22,fanniemae,R data.frame,4,R
+feather V1,0.003193215,23,fanniemae,R data.frame,4,R
+feather V1,0.003103454,24,fanniemae,R data.frame,4,R
+feather V1,0.003078479,25,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.004986146,1,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003106095,2,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.00302845,3,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003072003,4,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002894277,5,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002997103,6,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002901294,7,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.00298518,8,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002927767,9,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002972521,10,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002931175,11,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.002962828,12,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003001803,13,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003316292,14,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003095366,15,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003166668,16,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003000884,17,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003392166,18,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003414979,19,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003231527,20,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.00332056,21,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003186674,22,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003336308,23,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003231996,24,fanniemae,R data.frame,4,R
+feather V2 (UNC),0.003154764,25,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003489256,1,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.031378075,2,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003074372,3,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.00301405,4,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.00319159,5,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003155393,6,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003125796,7,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.00329302,8,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003185769,9,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003092487,10,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003275704,11,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003140848,12,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003052871,13,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.00306312,14,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003192587,15,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003134095,16,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003108172,17,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003163415,18,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003070455,19,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003043323,20,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003006169,21,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003132136,22,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.00296948,23,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003600079,24,fanniemae,R data.frame,4,R
+feather V2 (LZ4),0.003081094,25,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003272488,1,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003408488,2,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003324236,3,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.00332465,4,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003390725,5,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003319805,6,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.00334195,7,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003355078,8,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.0033741,9,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003318601,10,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003183285,11,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003409299,12,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003276956,13,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003277143,14,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003143906,15,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003142288,16,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003149069,17,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003212265,18,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003122401,19,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003146662,20,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003114562,21,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003202813,22,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003167391,23,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.00313964,24,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),0.003131533,25,fanniemae,R data.frame,4,R
+parquet (UNC),0.004298147,1,fanniemae,R data.frame,4,R
+parquet (UNC),0.004212982,2,fanniemae,R data.frame,4,R
+parquet (UNC),0.004201251,3,fanniemae,R data.frame,4,R
+parquet (UNC),0.004253679,4,fanniemae,R data.frame,4,R
+parquet (UNC),0.008270707,5,fanniemae,R data.frame,4,R
+parquet (UNC),0.004059323,6,fanniemae,R data.frame,4,R
+parquet (UNC),0.004134777,7,fanniemae,R data.frame,4,R
+parquet (UNC),0.004026563,8,fanniemae,R data.frame,4,R
+parquet (UNC),0.003985063,9,fanniemae,R data.frame,4,R
+parquet (UNC),0.004106142,10,fanniemae,R data.frame,4,R
+parquet (UNC),0.004007893,11,fanniemae,R data.frame,4,R
+parquet (UNC),0.004031803,12,fanniemae,R data.frame,4,R
+parquet (UNC),0.004280876,13,fanniemae,R data.frame,4,R
+parquet (UNC),0.004157144,14,fanniemae,R data.frame,4,R
+parquet (UNC),0.004108088,15,fanniemae,R data.frame,4,R
+parquet (UNC),0.004196561,16,fanniemae,R data.frame,4,R
+parquet (UNC),0.004205852,17,fanniemae,R data.frame,4,R
+parquet (UNC),0.004375521,18,fanniemae,R data.frame,4,R
+parquet (UNC),0.004279651,19,fanniemae,R data.frame,4,R
+parquet (UNC),0.004266125,20,fanniemae,R data.frame,4,R
+parquet (UNC),0.004158898,21,fanniemae,R data.frame,4,R
+parquet (UNC),0.004086553,22,fanniemae,R data.frame,4,R
+parquet (UNC),0.004144376,23,fanniemae,R data.frame,4,R
+parquet (UNC),0.004183996,24,fanniemae,R data.frame,4,R
+parquet (UNC),0.004081717,25,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004358394,1,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004226108,2,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004164186,3,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004103672,4,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004254203,5,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004308187,6,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.00432024,7,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004184231,8,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004206684,9,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004273819,10,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004236805,11,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004219147,12,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.00430349,13,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.0041081,14,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004041565,15,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004307041,16,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004178768,17,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004230564,18,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004193854,19,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.00412683,20,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004033101,21,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004182143,22,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004208968,23,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.009220723,24,fanniemae,R data.frame,4,R
+parquet (SNAPPY),0.004067262,25,fanniemae,R data.frame,4,R
+parquet (UNC),1.8728299140930176,1,fanniemae,arrow Table,4,Python
+parquet (UNC),1.7854516506195068,2,fanniemae,arrow Table,4,Python
+parquet (UNC),1.7873401641845703,3,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8664712905883791,4,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8301191329956052,5,fanniemae,arrow Table,4,Python
+parquet (UNC),1.832854986190796,6,fanniemae,arrow Table,4,Python
+parquet (UNC),1.803847074508667,7,fanniemae,arrow Table,4,Python
+parquet (UNC),1.80322265625,8,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8336338996887207,9,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8185057640075684,10,fanniemae,arrow Table,4,Python
+parquet (UNC),1.7885231971740725,11,fanniemae,arrow Table,4,Python
+parquet (UNC),1.857604742050171,12,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8605430126190183,13,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8595550060272217,14,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8569533824920652,15,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8683338165283203,16,fanniemae,arrow Table,4,Python
+parquet (UNC),1.849257230758667,17,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8376331329345703,18,fanniemae,arrow Table,4,Python
+parquet (UNC),1.943981647491455,19,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8478710651397705,20,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8496885299682615,21,fanniemae,arrow Table,4,Python
+parquet (UNC),1.822061538696289,22,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8987226486206052,23,fanniemae,arrow Table,4,Python
+parquet (UNC),1.8647592067718504,24,fanniemae,arrow Table,4,Python
+parquet (UNC),1.909657001495361,25,fanniemae,arrow Table,4,Python
+parquet (UNC),4.1436898708343515,1,fanniemae,pandas,4,Python
+parquet (UNC),4.113340139389038,2,fanniemae,pandas,4,Python
+parquet (UNC),4.152264595031738,3,fanniemae,pandas,4,Python
+parquet (UNC),4.142167091369629,4,fanniemae,pandas,4,Python
+parquet (UNC),4.127077341079712,5,fanniemae,pandas,4,Python
+parquet (UNC),4.0576727390289316,6,fanniemae,pandas,4,Python
+parquet (UNC),4.041805028915404,7,fanniemae,pandas,4,Python
+parquet (UNC),4.117100477218628,8,fanniemae,pandas,4,Python
+parquet (UNC),4.095183372497559,9,fanniemae,pandas,4,Python
+parquet (UNC),4.0627310276031485,10,fanniemae,pandas,4,Python
+parquet (UNC),4.077145338058472,11,fanniemae,pandas,4,Python
+parquet (UNC),4.080929517745972,12,fanniemae,pandas,4,Python
+parquet (UNC),4.006199359893799,13,fanniemae,pandas,4,Python
+parquet (UNC),4.117088317871094,14,fanniemae,pandas,4,Python
+parquet (UNC),4.069779634475708,15,fanniemae,pandas,4,Python
+parquet (UNC),4.084241867065431,16,fanniemae,pandas,4,Python
+parquet (UNC),3.996125459671021,17,fanniemae,pandas,4,Python
+parquet (UNC),3.9913015365600586,18,fanniemae,pandas,4,Python
+parquet (UNC),4.132671356201172,19,fanniemae,pandas,4,Python
+parquet (UNC),4.0458972454071045,20,fanniemae,pandas,4,Python
+parquet (UNC),4.0515668392181405,21,fanniemae,pandas,4,Python
+parquet (UNC),4.03484845161438,22,fanniemae,pandas,4,Python
+parquet (UNC),4.1245765686035165,23,fanniemae,pandas,4,Python
+parquet (UNC),4.053024291992188,24,fanniemae,pandas,4,Python
+parquet (UNC),4.093266487121582,25,fanniemae,pandas,4,Python
+parquet (SNAPPY),1.8735785484313965,1,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.888375997543335,2,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8510491847991943,3,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8142757415771484,4,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8819413185119631,5,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8735601902008057,6,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8612911701202397,7,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.858757495880127,8,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.937586069107056,9,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.92549991607666,10,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.85088849067688,11,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.909067153930664,12,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.9374430179595947,13,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8414318561553955,14,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8676581382751465,15,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.875195264816284,16,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.9040217399597168,17,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.9007976055145264,18,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8959956169128416,19,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.865689754486084,20,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8849806785583496,21,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.9215450286865237,22,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.890002727508545,23,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.9065520763397217,24,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),1.8811867237091064,25,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),4.129929542541504,1,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.253690481185913,2,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.1272053718566895,3,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.068828344345094,4,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.111046552658081,5,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.155121088027953,6,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.062485933303833,7,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.07262659072876,8,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.1119229793548575,9,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.1224365234375,10,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.0882248878478995,11,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.070269823074342,12,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.158823251724243,13,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.106994390487672,14,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.180354595184326,15,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.235900402069092,16,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.136481046676637,17,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.1836490631103525,18,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.100341558456422,19,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.120380401611328,20,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.069418668746948,21,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.165327072143556,22,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.159032344818115,23,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.1335952281951895,24,fanniemae,pandas,4,Python
+parquet (SNAPPY),4.180712699890137,25,fanniemae,pandas,4,Python
+feather V2 (UNC),3.684426307678223,1,fanniemae,pandas,4,Python
+feather V2 (UNC),3.360100507736206,2,fanniemae,pandas,4,Python
+feather V2 (UNC),3.16813325881958,3,fanniemae,pandas,4,Python
+feather V2 (UNC),3.373362302780152,4,fanniemae,pandas,4,Python
+feather V2 (UNC),3.2474761009216313,5,fanniemae,pandas,4,Python
+feather V2 (UNC),3.398937225341797,6,fanniemae,pandas,4,Python
+feather V2 (UNC),3.322021484375,7,fanniemae,pandas,4,Python
+feather V2 (UNC),3.354299783706665,8,fanniemae,pandas,4,Python
+feather V2 (UNC),3.3252713680267334,9,fanniemae,pandas,4,Python
+feather V2 (UNC),3.348974704742432,10,fanniemae,pandas,4,Python
+feather V2 (UNC),3.333603382110596,11,fanniemae,pandas,4,Python
+feather V2 (UNC),3.3258166313171387,12,fanniemae,pandas,4,Python
+feather V2 (UNC),3.1438007354736333,13,fanniemae,pandas,4,Python
+feather V2 (UNC),3.556093454360962,14,fanniemae,pandas,4,Python
+feather V2 (UNC),3.5256075859069824,15,fanniemae,pandas,4,Python
+feather V2 (UNC),3.066855430603028,16,fanniemae,pandas,4,Python
+feather V2 (UNC),3.3394641876220703,17,fanniemae,pandas,4,Python
+feather V2 (UNC),3.4921050071716313,18,fanniemae,pandas,4,Python
+feather V2 (UNC),3.143270254135132,19,fanniemae,pandas,4,Python
+feather V2 (UNC),3.4853906631469727,20,fanniemae,pandas,4,Python
+feather V2 (UNC),3.3344104290008545,21,fanniemae,pandas,4,Python
+feather V2 (UNC),3.3354008197784424,22,fanniemae,pandas,4,Python
+feather V2 (UNC),3.323047876358032,23,fanniemae,pandas,4,Python
+feather V2 (UNC),3.1325604915618896,24,fanniemae,pandas,4,Python
+feather V2 (UNC),3.3612000942230225,25,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.8977861404418945,1,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.844016790390014,2,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.689168691635132,3,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6935343742370605,4,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.74474573135376,5,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.707959651947021,6,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.678786277770996,7,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6975016593933105,8,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.7299375534057617,9,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.730114221572876,10,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.727389097213745,11,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6942176818847656,12,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6858696937561035,13,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.73321533203125,14,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.715686082839966,15,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6723062992095947,16,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.7644078731536865,17,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.7740273475646973,18,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.719609498977661,19,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.7142293453216557,20,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.713336229324341,21,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.7236931324005127,22,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6798250675201416,23,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.6905229091644287,24,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.7269864082336426,25,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0718259811401367,1,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0771310329437256,2,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0596070289611816,3,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0315346717834477,4,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.049702405929565,5,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.1190497875213623,6,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.088279485702514,7,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0672194957733154,8,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.063905954360962,9,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.103865623474121,10,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0645551681518555,11,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.090174913406372,12,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.096151113510132,13,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.067429542541504,14,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0590500831604004,15,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0240259170532227,16,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.1157238483428955,17,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0986418724060063,18,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.149994373321533,19,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0516905784606934,20,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.069749116897583,21,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0297350883483887,22,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.063360929489136,23,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0825135707855225,24,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.2315194606781006,25,fanniemae,pandas,4,Python
+feather V2 (UNC),1.4873208999633791,1,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.1130855083465576,2,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0283372402191162,3,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8702657222747803,4,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0918269157409668,5,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8960137367248535,6,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.6453704833984375,7,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8798394203186035,8,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.7953264713287354,9,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.1473369598388672,10,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.1003458499908447,11,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.1667947769165041,12,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8968572616577148,13,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8061506748199463,14,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0189881324768066,15,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8680381774902344,16,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.045623540878296,17,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0269722938537598,18,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.9004700183868408,19,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0938916206359863,20,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.8977062702178955,21,fanniemae,arrow Table,4,Python
+feather V2 (UNC),0.9602031707763672,22,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0705804824829102,23,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0821373462677002,24,fanniemae,arrow Table,4,Python
+feather V2 (UNC),1.0671007633209229,25,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.7396261692047119,1,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.522829532623291,2,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4900758266448975,3,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.45512032508850103,4,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4440140724182129,5,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4454686641693115,6,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4543383121490479,7,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4765253067016602,8,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.484750509262085,9,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4874789714813232,10,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4671964645385742,11,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4549937248229981,12,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4964485168457031,13,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4808945655822754,14,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4598538875579834,15,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4564714431762695,16,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4512765407562256,17,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4542734622955322,18,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4623591899871826,19,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4506175518035889,20,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4760465621948242,21,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4809026718139648,22,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4781761169433594,23,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4875857830047608,24,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4606308937072754,25,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.795588493347168,1,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8152432441711426,2,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8332817554473877,3,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8088061809539795,4,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8051068782806396,5,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8073616027832031,6,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8147332668304443,7,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8033518791198729,8,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8197026252746582,9,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8084416389465332,10,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8172147274017334,11,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8358297348022461,12,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8234505653381348,13,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8242270946502686,14,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.794285774230957,15,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.7808623313903809,16,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.794597864151001,17,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.827286958694458,18,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.7976975440979004,19,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.7953953742980957,20,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.7972776889801025,21,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8157739639282227,22,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8181297779083252,23,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8295466899871826,24,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.7976660728454591,25,fanniemae,arrow Table,4,Python

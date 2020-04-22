@@ -1,21 +1,31 @@
-,expr,output_type,mean,dataset
-0,parquet (UNC),arrow Table,6.162686586380005,fanniemae
-1,parquet (UNC),pandas,11.565850496292114,fanniemae
-2,parquet (SNAPPY),arrow Table,6.410535216331482,fanniemae
-3,parquet (SNAPPY),pandas,11.6298109292984,fanniemae
-4,feather V2 (UNC),pandas,11.104193806648254,fanniemae
-5,feather V2 (UNC),arrow Table,5.889622092247009,fanniemae
-6,feather V2 (LZ4),pandas,6.612253308296204,fanniemae
-7,feather V2 (LZ4),arrow Table,1.306950330734253,fanniemae
-8,feather V2 (ZSTD),pandas,7.202290296554565,fanniemae
-9,feather V2 (ZSTD),arrow Table,1.8320761919021606,fanniemae
-10,parquet (UNC),arrow Table,4.338123440742493,nyctaxi
-11,parquet (UNC),pandas,8.028993129730225,nyctaxi
-12,parquet (SNAPPY),arrow Table,5.622675895690918,nyctaxi
-13,parquet (SNAPPY),pandas,9.33586835861206,nyctaxi
-14,feather V2 (UNC),pandas,6.233096599578857,nyctaxi
-15,feather V2 (UNC),arrow Table,2.9943872690200806,nyctaxi
-16,feather V2 (LZ4),pandas,5.67785370349884,nyctaxi
-17,feather V2 (LZ4),arrow Table,2.289505124092102,nyctaxi
-18,feather V2 (ZSTD),pandas,6.161942005157471,nyctaxi
-19,feather V2 (ZSTD),arrow Table,2.7954366207122803,nyctaxi
+,expr,output_type,iteration,time,dataset
+0,parquet (UNC),arrow Table,1,6.662369251251221,fanniemae
+1,parquet (UNC),arrow Table,2,6.4456446170806885,fanniemae
+2,parquet (UNC),arrow Table,3,6.569836616516113,fanniemae
+3,parquet (UNC),pandas,1,13.138887166976929,fanniemae
+4,parquet (UNC),pandas,2,12.75329327583313,fanniemae
+5,parquet (UNC),pandas,3,12.537866353988647,fanniemae
+6,parquet (SNAPPY),arrow Table,1,6.699746131896973,fanniemae
+7,parquet (SNAPPY),arrow Table,2,6.7596211433410645,fanniemae
+8,parquet (SNAPPY),arrow Table,3,6.793554306030273,fanniemae
+9,parquet (SNAPPY),pandas,1,12.979837894439697,fanniemae
+10,parquet (SNAPPY),pandas,2,12.403964757919312,fanniemae
+11,parquet (SNAPPY),pandas,3,12.04546308517456,fanniemae
+12,feather V2 (UNC),pandas,1,11.912601947784424,fanniemae
+13,feather V2 (UNC),pandas,2,11.55484390258789,fanniemae
+14,feather V2 (UNC),pandas,3,11.038951635360718,fanniemae
+15,feather V2 (UNC),arrow Table,1,6.076066970825195,fanniemae
+16,feather V2 (UNC),arrow Table,2,6.064499855041504,fanniemae
+17,feather V2 (UNC),arrow Table,3,6.12492299079895,fanniemae
+18,feather V2 (LZ4),pandas,1,6.977755069732666,fanniemae
+19,feather V2 (LZ4),pandas,2,6.977018356323242,fanniemae
+20,feather V2 (LZ4),pandas,3,6.820511102676392,fanniemae
+21,feather V2 (LZ4),arrow Table,1,1.2438716888427734,fanniemae
+22,feather V2 (LZ4),arrow Table,2,1.27504301071167,fanniemae
+23,feather V2 (LZ4),arrow Table,3,1.2586569786071777,fanniemae
+24,feather V2 (ZSTD),pandas,1,7.412152290344238,fanniemae
+25,feather V2 (ZSTD),pandas,2,7.122904539108276,fanniemae
+26,feather V2 (ZSTD),pandas,3,7.416147708892822,fanniemae
+27,feather V2 (ZSTD),arrow Table,1,1.8710920810699463,fanniemae
+28,feather V2 (ZSTD),arrow Table,2,1.7931792736053467,fanniemae
+29,feather V2 (ZSTD),arrow Table,3,1.772740125656128,fanniemae

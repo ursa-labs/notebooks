@@ -1,0 +1,21 @@
+dataset,file_type,size
+fanniemae,feather V1,2.2847213745117188
+fanniemae,feather V2 (UNC),4812.015695571899
+fanniemae,feather V2 (LZ4),608.8575687408447
+fanniemae,feather V2 (ZSTD),499.76035499572754
+fanniemae,parquet (UNC),372.0420684814453
+fanniemae,parquet (SNAPPY),136.54194450378418
+fanniemae,fst (UNC),2.3246679306030273
+fanniemae,fst (C=50),0.2884960174560547
+fanniemae,RDS (C),0.05695819854736328
+fanniemae,RDS (UNC),2.5632715225219727
+nyctaxi,feather V1,1.6430816650390625
+nyctaxi,feather V2 (UNC),1.6446552276611328
+nyctaxi,feather V2 (LZ4),0.7470111846923828
+nyctaxi,feather V2 (ZSTD),0.5281848907470703
+nyctaxi,parquet (UNC),0.880223274230957
+nyctaxi,parquet (SNAPPY),0.5867996215820312
+nyctaxi,fst (UNC),1.6462821960449219
+nyctaxi,fst (C=50),0.789794921875
+nyctaxi,RDS (C),541.6701745986938
+nyctaxi,RDS (UNC),2671.2057056427

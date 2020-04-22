@@ -158,18 +158,21 @@ files = {
 def run_benchmarks(num_threads, what='read'):
     pa.set_cpu_count(num_threads)
 
+    to_test = ['fanniemae']
+
     all_results = []
-    for name, info in files.items():
+    for dataset in to_test:
+        info = files[dataset]
         benchmarker = Benchmarker(info)
         if what == 'read':
             print("Benchmarking reads")
-            file_results = benchmarker.bench_read()
+            file_results = benchmarker.bench_read(25)
         elif what == 'write':
             print("Benchmarking writes")
-            file_results = benchmarker.bench_write()
+            file_results = benchmarker.bench_write(3)
         else:
             raise ValueError(what)
-        file_results['dataset'] = name
+        file_results['dataset'] = dataset
         all_results.append(file_results)
 
     return pd.concat(all_results, ignore_index=True)

@@ -15,8 +15,8 @@ create_files <- function(base) {
   feather::write_feather(df, str_c(base, "_v1.feather"))
   fst::write_fst(df, str_c(base, "_0.fst"), compress=0)
   fst::write_fst(df, str_c(base, "_50.fst"), compress=50)
-  saveRDS(df, str_c(base, "_compressed.rds"), compress=TRUE)
-  saveRDS(df, str_c(base, "_uncompressed.rds"), compress=FALSE)
+  # saveRDS(df, str_c(base, "_compressed.rds"), compress=TRUE)
+  # saveRDS(df, str_c(base, "_uncompressed.rds"), compress=FALSE)
 }
 
 do_benchmark <- function(index) {
@@ -35,6 +35,9 @@ do_benchmark <- function(index) {
   rds_unc_path <- str_c(base, "_uncompressed.rds")
   rds_compressed_path <- str_c(base, "_compressed.rds")
 
+   # rds_unc=readRDS(rds_unc_path),
+   # rds_compressed=readRDS(rds_compressed_path),
+
   mbm <- microbenchmark(
      csv_fread=data.table::fread(csv_path, sep=sep, header=FALSE),
      fst_unc=fst::read_fst(fst_0_path),
@@ -45,10 +48,8 @@ do_benchmark <- function(index) {
      feather_zstd=arrow::read_feather(feather_zstd_path),
      parquet_unc=arrow::read_parquet(parquet_unc_path),
      parquet_snappy=arrow::read_parquet(parquet_snappy_path),
-     rds_unc=readRDS(rds_unc_path),
-     rds_compressed=readRDS(rds_compressed_path),
-     times=5,
-     control=list(order="block", warmup=1)
+     times=25,
+     control=list(order="block", warmup=0)
   )
   mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::mutate(iteration=1:n())
   mbm$dataset <- names[index]
@@ -61,24 +62,25 @@ do_write_benchmark <- function(index) {
 
   df <- arrow::read_parquet(str_c(base, "_snappy.parquet"))
 
+   # rds_compressed=saveRDS(df, str_c(base, "_compressed.rds"), compress=TRUE),
+   #  rds_unc=saveRDS(df, str_c(base, "_uncompressed.rds"), compress=FALSE),
+
   mbm <- microbenchmark(
      fst_unc=fst::write_fst(df, str_c(base, "_0.fst"), compress=0),
      fst_50=fst::write_fst(df, str_c(base, "_50.fst"), compress=50),
      feather_v1=feather::write_feather(df, str_c(base, "_v1.feather")),
      feather_unc=arrow::write_feather(df, str_c(base, "_unc_r.feather"),
           compression="uncompressed"),
-     feather_lz4=arrow::write_parquet(df, str_c(base, "_lz4_r.feather"),
+     feather_lz4=arrow::write_feather(df, str_c(base, "_lz4_r.feather"),
           compression="lz4"),
-     feather_zstd=arrow::write_parquet(df, str_c(base, "_zstd_r.feather"),
+     feather_zstd=arrow::write_feather(df, str_c(base, "_zstd_r.feather"),
           compression="zstd"),
      parquet_unc=arrow::write_parquet(df, str_c(base, "_unc_r.parquet"),
           compression="uncompressed"),
      parquet_snappy=arrow::write_parquet(df, str_c(base, "_snappy_r.parquet"),
           compression="snappy"),
-     rds_compressed=saveRDS(df, str_c(base, "_compressed.rds"), compress=TRUE),
-     rds_unc=saveRDS(df, str_c(base, "_uncompressed.rds"), compress=FALSE),
      times=3,
-     control=list(order="block", warmup=1)
+     control=list(order="block", warmup=0)
   )
   mbm <- data.frame(mbm) %>% dplyr::group_by(expr) %>% dplyr::mutate(iteration=1:n())
   mbm$dataset <- names[index]
@@ -95,10 +97,12 @@ generate_files()
 
 print(str_c("Using ", arrow::cpu_count(), " threads"))
 
-results <- dplyr::bind_rows(do_benchmark(1), do_benchmark(2))
+results <- dplyr::bind_rows(do_benchmark(1))
+# results <- dplyr::bind_rows(do_benchmark(1), do_benchmark(2))
 print(results)
 write.csv(results, str_c("r_read_results_", arrow::cpu_count(), ".csv"))
 
-write_results <- dplyr::bind_rows(do_write_benchmark(1), do_write_benchmark(2))
+write_results <- dplyr::bind_rows(do_benchmark(1))
+# write_results <- dplyr::bind_rows(do_write_benchmark(1), do_write_benchmark(2))
 print(write_results)
 write.csv(write_results, str_c("r_write_results_", arrow::cpu_count(), ".csv"))
