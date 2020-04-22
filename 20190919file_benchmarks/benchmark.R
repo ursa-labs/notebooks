@@ -93,7 +93,7 @@ generate_files <- function() {
   }
 }
 
-generate_files()
+# generate_files()
 
 print(str_c("Using ", arrow::cpu_count(), " threads"))
 
@@ -102,7 +102,7 @@ results <- dplyr::bind_rows(do_benchmark(1))
 print(results)
 write.csv(results, str_c("r_read_results_", arrow::cpu_count(), ".csv"))
 
-write_results <- dplyr::bind_rows(do_benchmark(1))
+write_results <- dplyr::bind_rows(do_write_benchmark(1))
 # write_results <- dplyr::bind_rows(do_write_benchmark(1), do_write_benchmark(2))
 print(write_results)
 write.csv(write_results, str_c("r_write_results_", arrow::cpu_count(), ".csv"))
