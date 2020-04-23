@@ -15,6 +15,22 @@ file_sizes <- rbind(
   )
 )
 
+# We did an extra run of the fanniemae data with more reps, so let's use that
+fm_read <- read.csv("20200421_fanniemae_results/all_read_results.csv")
+fm_read_stats <- fm_read %>%
+  group_by(expr, output_type, nthreads) %>%
+  summarize(min = min(time), median = median(time), max=max(time), dataset = "fanniemae")
+read_results <- merge(read_results, fm_read_stats, all.x = TRUE)
+# The python numbers are close enough; the R numbers are errors. Let's not use them
+
+fm_write <- read.csv("20200421_fanniemae_results/all_write_results.csv")
+fm_write_stats <- fm_write %>%
+  group_by(expr, output_type, nthreads) %>%
+  summarize(min = min(time), median = median(time), max=max(time), dataset = "fanniemae")
+write_results <- merge(write_results, fm_write_stats, all.x = TRUE)
+# These look more sensible. Update the time we'll use accordingly
+write_results$time[!is.na(write_results$median)] <- write_results$median[!is.na(write_results$median)]
+
 # Color mapping
 cols <- c(
   "feather V1" = "steelblue",
@@ -125,7 +141,7 @@ ggsave("20200414_write_full.png", width=10, height=6)
 write_results %>%
   filter(nthreads == 4 & dataset == "fanniemae" & language == "Python") %>%
   benchmark_plot() +
-  scale_y_continuous(breaks = seq(0, 12, 2), limits = c(0, 12)) +
+  scale_y_continuous(breaks = seq(0, 12, 2), limits = c(0, 13)) +
   labs(x = "", y = "Time to write (s)", title = "")
 ggsave("20200414_write_py.png", width=10, height=3)
 
@@ -133,7 +149,7 @@ ggsave("20200414_write_py.png", width=10, height=3)
 write_results %>%
   filter(nthreads == 4 & dataset == "fanniemae" & language == "R" & !grepl("^RDS", expr)) %>%
   benchmark_plot() +
-  scale_y_continuous(breaks = seq(0, 12, 2), limits = c(0, 12)) +
+  scale_y_continuous(breaks = seq(0, 12, 2), limits = c(0, 13)) +
   labs(x = "", y = "Time to write (s)", title = "")
 ggsave("20200414_write_r.png", width=10, height=3)
 

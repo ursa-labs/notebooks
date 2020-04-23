@@ -1,0 +1,85 @@
+expr,time,dataset,output_type,nthreads,language
+csv_fread,17.535751806,fanniemae,R data.frame,1,R
+fst (UNC),5.83356695,fanniemae,R data.frame,1,R
+fst (c=50),5.875382178,fanniemae,R data.frame,1,R
+feather V1,10.078519502799999,fanniemae,R data.frame,1,R
+feather V2 (UNC),4.7198155451999995,fanniemae,R data.frame,1,R
+feather V2 (LZ4),5.852145495199999,fanniemae,R data.frame,1,R
+feather V2 (ZSTD),7.77908361,fanniemae,R data.frame,1,R
+parquet (UNC),9.4933916048,fanniemae,R data.frame,1,R
+parquet (SNAPPY),9.911315661200002,fanniemae,R data.frame,1,R
+RDS (UNC),30.2670197082,fanniemae,R data.frame,1,R
+RDS (C),41.482849064199996,fanniemae,R data.frame,1,R
+csv_fread,23.370041255,nyctaxi,R data.frame,1,R
+fst (UNC),13.017416436,nyctaxi,R data.frame,1,R
+fst (c=50),12.6347099714,nyctaxi,R data.frame,1,R
+feather V1,13.443664009399999,nyctaxi,R data.frame,1,R
+feather V2 (UNC),11.3714301042,nyctaxi,R data.frame,1,R
+feather V2 (LZ4),13.29604463,nyctaxi,R data.frame,1,R
+feather V2 (ZSTD),14.5943007722,nyctaxi,R data.frame,1,R
+parquet (UNC),13.1586667582,nyctaxi,R data.frame,1,R
+parquet (SNAPPY),13.958228992,nyctaxi,R data.frame,1,R
+RDS (UNC),22.211784820200002,nyctaxi,R data.frame,1,R
+RDS (C),30.765105346200002,nyctaxi,R data.frame,1,R
+parquet (UNC),6.126083183288574,fanniemae,arrow Table,1,Python
+parquet (UNC),9.3643874168396,fanniemae,pandas,1,Python
+parquet (SNAPPY),6.056532478332518,fanniemae,arrow Table,1,Python
+parquet (SNAPPY),9.177780771255494,fanniemae,pandas,1,Python
+feather V2 (UNC),4.354116058349609,fanniemae,pandas,1,Python
+feather V2 (LZ4),4.396533584594726,fanniemae,pandas,1,Python
+feather V2 (ZSTD),5.775776481628418,fanniemae,pandas,1,Python
+feather V2 (UNC),1.0860649585723876,fanniemae,arrow Table,1,Python
+feather V2 (LZ4),1.0962132453918456,fanniemae,arrow Table,1,Python
+feather V2 (ZSTD),2.531323909759521,fanniemae,arrow Table,1,Python
+parquet (UNC),2.2780594348907472,nyctaxi,arrow Table,1,Python
+parquet (UNC),9.222453880310061,nyctaxi,pandas,1,Python
+parquet (SNAPPY),2.8247000694274904,nyctaxi,arrow Table,1,Python
+parquet (SNAPPY),9.735122680664062,nyctaxi,pandas,1,Python
+feather V2 (UNC),7.608278465270996,nyctaxi,pandas,1,Python
+feather V2 (LZ4),7.784061861038206,nyctaxi,pandas,1,Python
+feather V2 (ZSTD),9.633673095703122,nyctaxi,pandas,1,Python
+feather V2 (UNC),0.5403317451477051,nyctaxi,arrow Table,1,Python
+feather V2 (LZ4),0.9643253803253172,nyctaxi,arrow Table,1,Python
+feather V2 (ZSTD),2.7800182342529296,nyctaxi,arrow Table,1,Python
+csv_fread,8.036938666600001,fanniemae,R data.frame,4,R
+fst (UNC),6.3416014972,fanniemae,R data.frame,4,R
+fst (c=50),5.0547549678,fanniemae,R data.frame,4,R
+feather V1,9.799018014,fanniemae,R data.frame,4,R
+feather V2 (UNC),5.0542017474,fanniemae,R data.frame,4,R
+feather V2 (LZ4),4.928118181,fanniemae,R data.frame,4,R
+feather V2 (ZSTD),5.5355538286,fanniemae,R data.frame,4,R
+parquet (UNC),6.281569166600001,fanniemae,R data.frame,4,R
+parquet (SNAPPY),6.3922376926,fanniemae,R data.frame,4,R
+RDS (UNC),29.8928874914,fanniemae,R data.frame,4,R
+RDS (C),41.273872293800004,fanniemae,R data.frame,4,R
+csv_fread,18.312046954,nyctaxi,R data.frame,4,R
+fst (UNC),11.9693504656,nyctaxi,R data.frame,4,R
+fst (c=50),13.4391470686,nyctaxi,R data.frame,4,R
+feather V1,12.034649945,nyctaxi,R data.frame,4,R
+feather V2 (UNC),11.0239614322,nyctaxi,R data.frame,4,R
+feather V2 (LZ4),11.592801001,nyctaxi,R data.frame,4,R
+feather V2 (ZSTD),12.704684877,nyctaxi,R data.frame,4,R
+parquet (UNC),12.225668849,nyctaxi,R data.frame,4,R
+parquet (SNAPPY),12.0044663816,nyctaxi,R data.frame,4,R
+RDS (UNC),21.847153904,nyctaxi,R data.frame,4,R
+RDS (C),30.735937022799998,nyctaxi,R data.frame,4,R
+parquet (UNC),1.841284704208374,fanniemae,arrow Table,4,Python
+parquet (UNC),4.0880148887634284,fanniemae,pandas,4,Python
+parquet (SNAPPY),1.8786502361297608,fanniemae,arrow Table,4,Python
+parquet (SNAPPY),4.165652704238892,fanniemae,pandas,4,Python
+feather V2 (UNC),3.5610058307647705,fanniemae,pandas,4,Python
+feather V2 (LZ4),2.778682994842529,fanniemae,pandas,4,Python
+feather V2 (ZSTD),3.0616337299346923,fanniemae,pandas,4,Python
+feather V2 (UNC),1.1269856452941895,fanniemae,arrow Table,4,Python
+feather V2 (LZ4),0.4898182392120362,fanniemae,arrow Table,4,Python
+feather V2 (ZSTD),0.8093690395355224,fanniemae,arrow Table,4,Python
+parquet (UNC),0.6995339870452881,nyctaxi,arrow Table,4,Python
+parquet (UNC),7.4361457347869875,nyctaxi,pandas,4,Python
+parquet (SNAPPY),0.78084397315979,nyctaxi,arrow Table,4,Python
+parquet (SNAPPY),7.540273284912108,nyctaxi,pandas,4,Python
+feather V2 (UNC),7.369460582733153,nyctaxi,pandas,4,Python
+feather V2 (LZ4),7.119231033325195,nyctaxi,pandas,4,Python
+feather V2 (ZSTD),7.537483549118043,nyctaxi,pandas,4,Python
+feather V2 (UNC),0.6116453170776367,nyctaxi,arrow Table,4,Python
+feather V2 (LZ4),0.4065845012664795,nyctaxi,arrow Table,4,Python
+feather V2 (ZSTD),0.8925417900085449,nyctaxi,arrow Table,4,Python
